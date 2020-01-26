@@ -2,7 +2,7 @@ baseURL = "https://ajaykumarns.github.io/"
 languageCode = "en-us"
 title = "Meditations"
 theme = "hugo-ink"
-copyright = "©Ajay Nadathur, 2020. Unauthorized use of this material without permission is strictly prohibited"
+copyright = "©Ajay Nadathur, 2020. Unauthorized use of this material without permission is strictly prohibited."
 googleAnalytics = ""
 
 [params]
