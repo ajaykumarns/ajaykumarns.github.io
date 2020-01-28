@@ -1,6 +1,6 @@
-baseURL = "https://ajaykumarns.github.io/"
+baseURL = "http://gyanfull.in"
 languageCode = "en-us"
-title = "Meditations"
+title = "Gyanfull"
 theme = "hugo-ink"
 copyright = "©Ajay Nadathur, 2020. Unauthorized use of this material without permission is strictly prohibited."
 googleAnalytics = "UA-156965118-1"
