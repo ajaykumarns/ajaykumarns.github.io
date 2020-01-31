@@ -30,6 +30,10 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
+[[menu.main]]
+name = "Bookshelf"
+url = "/page/bookshelf"
+weight = 4
 
 [[params.social]]
 name = "Github"
