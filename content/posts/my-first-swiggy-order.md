@@ -1,7 +1,6 @@
 ---
 title: "My First Swiggy Order"
 date: 2020-01-31T15:04:43+05:30
-draft: true
 tags: [swiggy, reviews]
 ---
 My first order through swiggy didn't go as planned. I fell sick for a week after eating food that I ordered through swiggy. Please find a copy of my review on iOS app store down below. (Sorry about the bit wanting to ban the app but, I wrote this review while going through severe diahorrea/stomach cramps)
