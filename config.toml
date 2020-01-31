@@ -32,7 +32,7 @@ weight = 4
 
 [[menu.main]]
 name = "Bookshelf"
-url = "/page/bookshelf"
+url = "/bookshelf"
 weight = 4
 
 [[params.social]]
