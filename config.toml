@@ -1,15 +1,33 @@
 baseURL = "https://gyanfull.in/"
 languageCode = "en-us"
 title = "Gyanfull"
-theme = "hugo-ink"
+theme = "beautifulhugo"
 copyright = "©Gyanfull.in, 2020. Unauthorized use of this material without permission is strictly prohibited."
 googleAnalytics = "UA-156965118-1"
 enableGitInfo = true
-[params]
-    subtitle = "My reflections on tech, book reviews, life, travel and more"
-    avatar = "/images/seal.png"
-	featherIconsCDN = true
-	mode = "auto"
+summaryLength = 30
+# hugo-ink parameters
+#[params]
+#    subtitle = "My reflections on tech, book reviews, life, travel and more"
+#    avatar = "/images/seal.png"
+#	featherIconsCDN = true
+#	mode = "auto"
+
+[Params]
+  subtitle = "My reflections on tech, life, travel, book reviews and more"
+  mainSections = ["post","posts"]
+  logo = "/images/logo.png"
+  favicon = "/images/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -19,11 +37,6 @@ unsafe= true
 name = "Home"
 url = "/"
 weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
 
 [[menu.main]]
 name = "Tags"
@@ -40,17 +53,29 @@ name = "Fav Quotes"
 url = "/fav-quotes"
 weight = 5
 
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/ajaykumarns"
+[Author]
+  name = "Ajay Nadathur"
+  website = "gyanfull.in"
+  github = "ajaykumarns"
+  twitter = "ajaykumarns"
+  linkedin = "ajayk3"
+#  stackoverflow = "users/XXXXXXX/username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/ajaykumarns"
+# settings for hugo-ink
+# [[params.social]]
+# name = "Github"
+# icon = "github"
+# url = "https://github.com/ajaykumarns"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/ajayk3/"
+# [[params.social]]
+# name = "Twitter"
+# icon = "twitter"
+# url = "https://twitter.com/ajaykumarns"
+
+# [[params.social]]
+# name = "LinkedIn"
+# icon = "linkedin"
+# url = "https://www.linkedin.com/in/ajayk3/"
+
