@@ -18,7 +18,9 @@
 					</div>
 				{{ end }}
 				<div class="matter">
-					<h1 class="title">{{ .Title }}</h1>
+					<h1 class="title">
+						{{ .Title }}{{ if ne .PublishDate .Lastmod }}<h6 style="display:inline; color:#7d7979"><i>Last updated {{ .Lastmod.Format "January 2, 2006" }}</i></h6>{{ end }}
+					</h1>
 				</div>
 			</div>
 					

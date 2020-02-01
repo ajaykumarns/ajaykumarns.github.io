@@ -2,9 +2,9 @@ baseURL = "https://gyanfull.in/"
 languageCode = "en-us"
 title = "Gyanfull"
 theme = "hugo-ink"
-copyright = "©Ajay Nadathur, 2020. Unauthorized use of this material without permission is strictly prohibited."
+copyright = "©Gyanfull.in, 2020. Unauthorized use of this material without permission is strictly prohibited."
 googleAnalytics = "UA-156965118-1"
-
+enableGitInfo = true
 [params]
     subtitle = "My reflections on tech, book reviews, life, travel and more"
     avatar = "/images/seal.png"
@@ -28,12 +28,17 @@ weight = 2
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 10
 
 [[menu.main]]
 name = "Bookshelf"
 url = "/bookshelf"
 weight = 4
+
+[[menu.main]]
+name = "Fav Quotes"
+url = "/fav-quotes"
+weight = 5
 
 [[params.social]]
 name = "Github"
