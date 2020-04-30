@@ -13,3 +13,6 @@ Here is a collection of my favorite quotes from all over.
 
 > You are confined only by the walls you build yourself.
 > —Andrew Murphy
+
+> It has therefore been said quite truly that a man grows with the greatness of his task. But he must have within himself the capacity to grow; otherwise even the most difficult task is of no benefit to him. More likely he will be shattered by it…
+> - C.G. Jung
