@@ -2,7 +2,7 @@ baseURL = "https://gyanfull.in/"
 languageCode = "en-us"
 title = "Gyanfull"
 theme = "beautifulhugo"
-copyright = "©Gyanfull.in, 2020. Unauthorized use of this material without permission is strictly prohibited."
+copyright = "©Gyanfull.in, 2024. Unauthorized use of this material without permission is strictly prohibited."
 googleAnalytics = "UA-156965118-1"
 enableGitInfo = true
 summaryLength = 30
@@ -59,23 +59,8 @@ weight = 5
   github = "ajaykumarns"
   twitter = "ajaykumarns"
   linkedin = "ajayk3"
+  youtube = "channel/UCaHMgyMYY9snroJYI4b83-A"
 #  stackoverflow = "users/XXXXXXX/username"
 #  instagram = "username"
 #  youtube = "user/username" # or channel/channelname
-
-# settings for hugo-ink
-# [[params.social]]
-# name = "Github"
-# icon = "github"
-# url = "https://github.com/ajaykumarns"
-
-# [[params.social]]
-# name = "Twitter"
-# icon = "twitter"
-# url = "https://twitter.com/ajaykumarns"
-
-# [[params.social]]
-# name = "LinkedIn"
-# icon = "linkedin"
-# url = "https://www.linkedin.com/in/ajayk3/"
 
