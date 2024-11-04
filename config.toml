@@ -3,8 +3,7 @@ languageCode = "en-us"
 title = "Gyanfull"
 theme = "beautifulhugo"
 copyright = "©Gyanfull.in, 2024. Unauthorized use of this material without permission is strictly prohibited."
-googleAnalytics = "UA-156965118-1"
-enableGitInfo = true
+enableGitInfo = false
 summaryLength = 30
 # hugo-ink parameters
 #[params]
@@ -12,6 +11,13 @@ summaryLength = 30
 #    avatar = "/images/seal.png"
 #	featherIconsCDN = true
 #	mode = "auto"
+
+[Services]
+  [Services.Disqus]
+    # Shortname = "XXX"
+  [Services.googleAnalytics]
+    id = "G-Q7JWN6M80T"
+
 
 [Params]
   subtitle = "My reflections on tech, life, travel, book reviews and more"
@@ -53,7 +59,7 @@ name = "Fav Quotes"
 url = "/fav-quotes"
 weight = 5
 
-[Author]
+[Params.Author]
   name = "Ajay Nadathur"
   website = "gyanfull.in"
   github = "ajaykumarns"
