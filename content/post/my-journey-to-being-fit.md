@@ -8,17 +8,13 @@ draft: false
 ---
 
 # TLDR;
-Documenting my fitness journey. My goal is to reach *Normal BMI* of **25** or below and maintain healthy a muscle build. This would entail
-me reaching a consistent weight of **67 kg** or below and loosing a total of **13 kgs** or more.
+I'm documenting my fitness journey with a goal to achieve a Normal BMI of 25 or below and maintain a healthy muscle build. This means reaching a consistent weight of 67 kg or less and losing a total of 13 kg or more.
 
 # Introduction
 
-I've never been a lean person but, my body tends to put on lot of weight quickly. It's a combination of eating habits 
-and genetics. While working in the US, I started trying out more healthy food habits such as salads, smoothies and protein bars. I also
-started doing more cardio intensive exercises such as running, swimming and cycling. But my weight situation never got closer to the
-ideal range. It's been fluctuating every now and then but never hit the healthy "target". 
+I’ve never been a naturally lean person. My body tends to gain weight quickly due to a combination of eating habits and genetics. While working in the US, I experimented with healthier food options like salads, smoothies, and protein bars, and incorporated cardio-intensive exercises such as running, swimming, and cycling. Yet, my weight never reached the ideal range. It fluctuated but never hit the healthy “target.”
 
-Here is my BMI data (I try to keep it updated regularly):
+Here’s a snapshot of my BMI data (I try to update it regularly):
 <br>
 <br>
 
@@ -28,12 +24,11 @@ Here is my BMI data (I try to keep it updated regularly):
 | Dec 9th, 2024 | 77.3 | 67 | -10.3 | 28.7 | Overweight
 
 <br>
-Lately, I discovered that my mental health has been suffering quite a bit and on some days, it gets really depressing. I felt exhausted and disgusted with myself for constantly
-coming up with excuses for not improving my physical fitness. I was feeling like I was stuck in a rut and couldn't do anything about it. Around early October of this year, I threw up my hands and said to myself this cannot go on any further. I no longer want to be this person.
+Lately, I noticed that my mental health was suffering. Some days felt deeply depressing. I grew frustrated with myself for constantly making excuses and felt stuck in a rut. In early October, I decided enough was enough—I didn’t want to continue living like this.
 
 # Joining the gym
-Since I quit my job at Google last month, I no longer had access to gym. To kick start my journey, I signed up for a one year membership with cult.fit on 15th Oct 2024.
-<br>
+Since I quit my job at Google last month, I no longer had access to a corporate gym. To kick-start my fitness journey, I signed up for a one-year membership with Cult.fit on October 15, 2024.
+
 <br>
 
 | Validity (months) | Validity (days) | Total Cost | Per day (₹) | Per month (₹)
@@ -43,11 +38,9 @@ Since I quit my job at Google last month, I no longer had access to gym. To kick
 <br>
 
 # Workout Routine
-I'm quite lazy and after quitting recently, I have fallen back to the typical night owl schedule; hit the bed around 2am, wake up around 10am.
-After having my cup of joe with creamer, usually I waste time on twitter, news until 11am. Reach the gym around 11ish am and then try to 
-workout for at least 1.5 hours. I try to go to gym at least 5 days a week and do resistance training (no cardio). 
+I’m naturally lazy, and after recently quitting my job, I’ve fallen into a night owl schedule: sleeping around 2 a.m. and waking up at 10 a.m. After my morning coffee with creamer, I spend time on Twitter and news until 11 a.m. before heading to the gym. I aim to work out for at least 1.5 hours, five days a week, focusing on resistance training (no cardio initially).
 
-Until last week (Dec 8, 2024), here is my typical schedule:
+Here’s my workout schedule until last week (Dec 8, 2024):
 
 * Day 1: Legs
   * 4x Squats (Barbell) - Best: 90kg x 3
@@ -85,43 +78,36 @@ Until last week (Dec 8, 2024), here is my typical schedule:
 * Day 5: Break
 * Day 6: Cycle to 1
 
-I've been quite consistent for the past 2 months gaining muscles but my weight loss has plateud around **77.5kg as of Dec 9th, 2024**. The
-stubborn belly fat refuses to disappear but I'm hopeful!
+After two months of consistency, I’ve gained muscle but my weight has plateaued at 77.5 kg (Dec 9, 2024). Belly fat remains stubborn, but I’m hopeful!
 
-Lately, I have started throwing in 30 minutes of cardio to my workout to increase fat loss.
+# Recent Addition: Cardio
+To accelerate fat loss, I’ve started adding 30 minutes of cardio to my routine:
 
-* Jump rope (15 mins)
-* Running/Inclined Walk/Elliptical (15 mins)
+* Jump Rope: 15 minutes
+* Running/Inclined Walk/Elliptical: 15 minutes
 
-# Diet regiment
-To lose weight, based on my limited research online I have decided to adopt **high protein, low carb diet**. For my current weight, I have
-decided to consume at least **62g of protein per day** (= 77kg * 0.8)
-
-Being lacto-vegetarian, it's 
-quite hard to avoid/restrict carbs since most of the online recommendations are for consuming eggs, meat, fish, etc.. (strict no-no for me).
-
-Hence, here is typical diet:
+# Diet Regimen
+To lose weight, I’m following a high-protein, low-carb diet. Based on my weight, I aim to consume at least 62g of protein per day (0.8g per kg body weight).
 
 ### Breakfast 
-  * I usually skip breakfast and hit the gym with just coffee + creamer.
-  * But sometimes, if I'm quite hungry I choose one of the following:
-    * Protein bar (~10g protein) - [RiteBite Max Bar](https://amzn.in/d/imbthnU) is quite tasty but carbs could be lower ☹️
-    * 1 slice of bread with 2 cheese slices (~14g protein)
+I usually skip breakfast and work out after just coffee + creamer. If I’m hungry, I opt for:
+* Protein bar (~10g protein): RiteBite Max Bar (carbs could be lower ☹️)
+* 1 slice of bread + 2 cheese slices (~14g protein)
+
 ### Lunch
-  * Being South Indian, it's quite hard to get away from rice. To reduce the carb load/hit from my rice intake, I do the following:
-    * Restrict my rice intake to 100g. 
-    * 1/3rd of the plate: Freeze the rice to reduce carb load, research article [here](https://pubmed.ncbi.nlm.nih.gov/26693746/)
-    * 1/3rd of the plate: Fried Veggies (Broccoli, Cauliflower, French Beans)
-    * 1/3rd of the plate:
-      * 4 pieces of Tempeh Tofu. Hello Tempayy's [Thai Chilli Thins](https://amzn.in/d/eVsZQUl) are quite delicious! I just fry them for few minutes and eat with rice. (~10g of protein)
-      * or 1-2 cups of chickpea (~20g of protein)
-    * Yogurt (50-100g) - gives you (~10g of protein)
+Being South Indian, avoiding rice is tough. To reduce its impact, I:
+  * Restrict my rice intake to 100g. 
+  * 1/3rd of the plate: Freeze the rice to reduce carb load, research article [here](https://pubmed.ncbi.nlm.nih.gov/26693746/)
+  * 1/3rd of the plate: Fried Veggies (Broccoli, Cauliflower, French Beans)
+  * 1/3rd of the plate:
+    * 4 pieces of Tempeh Tofu. Hello Tempayy's [Thai Chilli Thins](https://amzn.in/d/eVsZQUl) are quite delicious! I just fry them for few minutes and eat with rice. (~10g of protein)
+    * or 1-2 cups of chickpea (~20g of protein)
+  * Yogurt (50-100g) - gives you (~10g of protein)
 ### Evenings
   * If I get too hungry, I end up munching something carby or take 1 protein bar. Need to find a good replacement to reduce my carb intake.
 ### Dinner
   * 1 scoop of Optimum Nutrition's [protein shake](https://amzn.in/d/2d9B8a7) - gives you (~24g of protein).
   * Add some fruits, almonds, nuts etc... into the mix.
-
 
 
 # Supplements
@@ -159,12 +145,10 @@ or kidney in worse condition.*
 
 # Conclusion
 
-I will continue to keep this page updated as and when I find new things as well as my progress. This may be a cliche but there are no shortcuts
-to reducing body weight. I've come to the realization that this requires a lifetime change in diet and lifestyle. 
+This is a continuous journey. Sustainable weight loss requires a lifelong change in diet and lifestyle. I’ll keep this page updated with new insights and progress.
 
-I hope you find this information helpful! Let me know if you have any questions or need further clarification.
-
+Feel free to reach out with questions or suggestions!
 
 ---
 
-*This is just one person's journey, and individual results may vary. Always ensure safety when trying new supplements.*
+*Disclaimer: Always consult a professional before making significant changes to your diet or fitness routine.*
