@@ -5,16 +5,8 @@ theme = "beautifulhugo"
 copyright = "©Gyanfull.in, 2024. Unauthorized use of this material without permission is strictly prohibited."
 enableGitInfo = false
 summaryLength = 30
-# hugo-ink parameters
-#[params]
-#    subtitle = "My reflections on tech, book reviews, life, travel and more"
-#    avatar = "/images/seal.png"
-#	featherIconsCDN = true
-#	mode = "auto"
 
 [Services]
-  [Services.Disqus]
-    # Shortname = "XXX"
   [Services.googleAnalytics]
     id = "G-Q7JWN6M80T"
 
@@ -50,6 +42,11 @@ url = "/tags"
 weight = 10
 
 [[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
 name = "Bookshelf"
 url = "/bookshelf"
 weight = 4
@@ -60,13 +57,9 @@ url = "/fav-quotes"
 weight = 5
 
 [Params.Author]
-  name = "Ajay Nadathur"
   website = "gyanfull.in"
   github = "ajaykumarns"
   twitter = "ajaykumarns"
   linkedin = "ajayk3"
   youtube = "channel/UCaHMgyMYY9snroJYI4b83-A"
-#  stackoverflow = "users/XXXXXXX/username"
-#  instagram = "username"
-#  youtube = "user/username" # or channel/channelname
 
