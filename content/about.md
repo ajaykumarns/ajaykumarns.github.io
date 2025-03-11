@@ -56,4 +56,5 @@ I love travelling and exploring new places. Some of the countries I've visited i
 - Malaysia
 
 ## 🏭 What I'm building  
- https://sonictext.xyz - Smart transcripts for your audio/video content
+ - https://sonictext.xyz - Smart transcripts for your audio/video content
+ - https://pdfmagix.com - Powerful PDF tools designed to streamline your document workflow with precision and simplicity.
