@@ -27,6 +27,7 @@ summaryLength = 30
   delayDisqus = true
   showRelatedPosts = true
   hideAuthor = true
+  enableMailchimp = false
 
   # Brand Bar settings
   siteBrand = true
