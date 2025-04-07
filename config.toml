@@ -114,15 +114,6 @@ name = "About"
 url = "/about"
 weight = 2
 
-[[menu.main]]
-name = "Bookshelf"
-url = "/bookshelf"
-weight = 4
-
-[[menu.main]]
-name = "Fav Quotes"
-url = "/fav-quotes"
-weight = 5
 
 # Footer Navigation
 [[menu.footer]]
