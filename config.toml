@@ -44,9 +44,9 @@ summaryLength = 30
   # Social media links
   [Params.social]
     twitter = "https://twitter.com/ajaykumarns"
-    linkedin = "https://www.linkedin.com/in/ajayk3/"
+    linkedin = "https://www.linkedin.com/in/nadathur/"
     github = "https://github.com/ajaykumarns"
-    youtube = "https://www.youtube.com/channel/UCaHMgyMYY9snroJYI4b83-A"
+#    youtube = "https://www.youtube.com/channel/UCaHMgyMYY9snroJYI4b83-A"
 
   # Social sharing settings
   [Params.social.share]

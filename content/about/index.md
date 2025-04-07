@@ -1,24 +1,25 @@
 ---
 title: "About Me"
+subtitle: "Let me speak about me"
 date: 2025-02-15
+lastmod: 2022-04-26T21:28:23+02:00
 draft: false
+type: "about"
+
+author: Ajay Nadathur
+avatar: me.jpg
+twitter: "https://twitter.com/ajaykumarns"
+github: "https://github.com/antedoro"
+linkedin: "https://www.linkedin.com/in/antedoro/"
+instagram: "https://www.instagram.com/antedoro/"
+
+resources:
+- name: featured-image
+  src: me.jpg
+- name: featured-image-preview
+  src: me.jpg
+
 ---
-
-<style>
-.profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto;
-    display: block;
-    border: 3px solid #f8f9fa;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-</style>
-
-
-<img src="/images/profile.jpg" alt="Ajay Kumar NS" class="profile-img">
 
 # 👋, I'm Ajay Nadathur
 

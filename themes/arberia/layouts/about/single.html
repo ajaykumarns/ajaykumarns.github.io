@@ -8,7 +8,8 @@
         <div class="col-6 mx-auto">
 
           {{ if .Params.avatar }}
-          {{ $img := .Resources.GetMatch "me.webp" }}
+          {{ $img := .Resources.GetMatch .Params.avatar }}
+          {{ if $img }}
           <div class="embed-responsive embed-responsive-1by1 mb-3">
             {{/* resize the src image to the given sizes */}}
             {{ .Scratch.Set "small_img" ($img.Resize "200x") }}
@@ -24,6 +25,15 @@
               {{ with $large_img.RelPermalink }}{{.}} 800w{{ end }}," sizes="25vw"
               alt=" {{ .Params.author  | safeHTML}}" class="rounded-circle img-fluid embed-responsive-item">
           </div>
+          {{ else }}
+          <!-- No image found -->
+          <div class="embed-responsive embed-responsive-1by1 mb-3">
+            <div
+              class="rounded-circle img-fluid embed-responsive-item bg-light d-flex align-items-center justify-content-center">
+              <i class="fa fa-user fa-3x text-muted"></i>
+            </div>
+          </div>
+          {{ end }}
           {{end}}
 
 
@@ -31,26 +41,28 @@
 
         {{/* Social Link */}}
         <div class="col text-center">
-          <h1>{{ i18n "about" }} {{ .Params.author | markdownify }}</h1>
+          <h1>{{ .Params.author | markdownify }}</h1>
           <ul class="list-inline small">
-
-            <li class="list-inline-item"><a href="{{ .Params.website }}" class=""><i class="fa fa-user" style=""></i>
-                Personal
-                Website</a></li>
-
-            <li class="list-inline-item"><a href="{{ .Params.twitter }}" class=""><i class="fa fa-twitter-square"></i>
+            {{ with .Site.Params.social.twitter }}
+            <li class="list-inline-item"><a href="{{ . }}" class="" target="_blank"><i class="fa fa-twitter-square"></i>
                 Twitter</a></li>
+            {{ end }}
 
-            <li class="list-inline-item"><a href="{{ .Params.instagram}}" class=""><i class="fa fa-instagram"></i>
-                Instagram</a></li>
-
-            <li class="list-inline-item"><a href="{{ .Params.github}}" class=""><i class="fa fa-github-square"
-                  style=""></i>
+            {{ with .Site.Params.social.github }}
+            <li class="list-inline-item"><a href="{{ . }}" class="" target="_blank"><i class="fa fa-github-square"></i>
                 GitHub</a></li>
+            {{ end }}
 
-            <li class="list-inline-item"><a href="{{ .Params.linkedin }}" class=""><i class="fa fa-linkedin-square"
-                  style=""></i>
+            {{ with .Site.Params.social.linkedin }}
+            <li class="list-inline-item"><a href="{{ . }}" class="" target="_blank"><i
+                  class="fa fa-linkedin-square"></i>
                 LinkedIn</a></li>
+            {{ end }}
+
+            {{ with .Site.Params.social.youtube }}
+            <li class="list-inline-item"><a href="{{ . }}" class=""><i class="fa fa-youtube-square"></i>
+                YouTube</a></li>
+            {{ end }}
           </ul>
         </div>
         {{ .Content }}
