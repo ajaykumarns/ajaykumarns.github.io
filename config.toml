@@ -86,7 +86,7 @@ unsafe= true
   posts = "/:title/"
 
 [minify]
-  minifyOutput = true
+  minifyOutput = false
 
 enableRobotsTXT= true
 
