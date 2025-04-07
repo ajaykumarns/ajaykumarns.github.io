@@ -1,12 +1,29 @@
 ---
 layout: post
 title: Trip to Narasimha Konda
-modified:
+modified: 2025-04-07T07:34:41+00:00
 categories: [blog, travel]
 excerpt:
 tags: [blog, history, travel, temples]
 date: 2016-04-25T07:34:41+00:00
-comments: true
+type: standard-view
+weight: 1
+
+featured: false
+sidebar: true
+toc: true
+math:
+  enable: false
+lightgallery: false
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+author: Ajay Nadathur
+description: "A visit to the Narasimha Konda temple near Nellore, exploring the temple's surroundings, wildlife, and raising concerns about cleanliness and maintenance in Hindu temples."
+resources:
+  - name: featured-image
+    src: banner.png
 ---
 
 [*Narasimha Konda*](https://en.wikipedia.org/wiki/Narasimha_Konda) is a very famous temple dedicated to [Lord Narasimha](https://en.wikipedia.org/wiki/Narasimha), the fourth avatar of [Vishnu Bhagavan](https://en.wikipedia.org/wiki/Vishnu) near the outskirts of Nellore. Eager to get the blessings of the Narasimha Bhagavan, I went along with my relatives living in Nellore during the month of December, 2015. The journey to the temple is quite pleasant - surrounded by mountains and green cultivation fields, its a pleasant drive away from all madness that tends to plague cities. Along the way, one of the Nellore Tanks was overflowing onto the roads. 

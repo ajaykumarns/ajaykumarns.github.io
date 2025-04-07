@@ -10,7 +10,7 @@ I'm afraid I have fallen into the practice of whats called Tsundoku(積ん読); 
 
 
 ### Completed 2020
-* Pandora's lab by _Paul A.Offit_ ([amazon.in](https://amzn.to/36Lo7Jg)), [review]({{< ref "/post/pandoras-lab-review" >}})
+* Pandora's lab by _Paul A.Offit_ ([amazon.in](https://amzn.to/36Lo7Jg)), [review]({{< ref "/posts/pandoras-lab-review" >}})
 * Savarkar: Echoes from a Forgotten Past by _Vikram Sampath_ ([amazon.in](https://amzn.to/2vEEqdZ))
 * Deep Work: Rules for Focused Success in a Distracted World by _Cal Newport_ ([amazon.in](https://amzn.to/2uaxdC3))
 

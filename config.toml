@@ -1,8 +1,10 @@
 baseURL = "https://gyanfull.in/"
+languageName = "En"
 languageCode = "en-us"
-title = "Gyanfull"
-theme = "beautifulhugo"
-copyright = "©Gyanfull.in, 2024. Unauthorized use of this material without permission is strictly prohibited."
+relativeURLs = "True"
+title = "NadathurX"
+theme = "arberia"
+copyright = "©NadathurX.com, 2024. Unauthorized use of this material without permission is strictly prohibited."
 enableGitInfo = false
 summaryLength = 30
 
@@ -10,12 +12,11 @@ summaryLength = 30
   [Services.googleAnalytics]
     id = "G-Q7JWN6M80T"
 
-
 [Params]
   subtitle = "My reflections on tech, life, travel, book reviews and more"
   mainSections = ["post","posts"]
-  logo = "/images/logo.png"
-  favicon = "/images/favicon.ico"
+  logo = "img/logo4.png"
+  favicon = "/img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -27,10 +28,76 @@ summaryLength = 30
   showRelatedPosts = true
   hideAuthor = true
 
+  # Brand Bar settings
+  siteBrand = true
+  BrandName = "adathurX"
+  BrandLogo = "img/logo4.png"
+  BrandBorder = "rounded"
+  siteBrandWidth = 38
+  siteBrandHeight = 38
+
+  # Author information
+  author = "Ajay Nadathur"
+  author_resume = """**Ajay Nadathur** is a seasoned engineer and entrepreneur with 18+ years in software development focused on mobile apps, AI, and SaaS. Founder of SonicText.xyz & PDFMagix, xoogler, expert in LLMs, Android, and cloud-based AI solutions."""
+
+  # Social media links
+  [Params.social]
+    twitter = "https://twitter.com/ajaykumarns"
+    linkedin = "https://www.linkedin.com/in/ajayk3/"
+    github = "https://github.com/ajaykumarns"
+    youtube = "https://www.youtube.com/channel/UCaHMgyMYY9snroJYI4b83-A"
+
+  # Social sharing settings
+  [Params.social.share]
+    enable = true
+    twitter = true
+    facebook = true
+    linkedin = true
+    whatsapp = true
+    telegram = true
+    email = false
+    pinterest = false
+    reddit = true
+    pocket = false
+    instapaper = false
+
 [markup.goldmark.renderer]
 unsafe= true
 
-# Nav.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "JSON", "RSS", "AMP"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 5
+    ordered = false
+    tocMinWordCount = 100
+
+[permalinks]
+  posts = "/:title/"
+
+[minify]
+  minifyOutput = true
+
+enableRobotsTXT= true
+
+############################# Plugins ##############################
+[assets]
+  favicon = "img/favicon.ico"
+  favicon16x16 = "img/favicon16x16.png"
+  favicon32x32 = "img/favicon32x32.png"
+  apple_touch_icon = "img/apple-touch-icon.png"
+  safari_pinned_tab = "img/apple-touch-icon.png"
+
+# Main Navigation
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -56,10 +123,18 @@ name = "Fav Quotes"
 url = "/fav-quotes"
 weight = 5
 
-[Params.Author]
-  website = "gyanfull.in"
-  github = "ajaykumarns"
-  twitter = "ajaykumarns"
-  linkedin = "ajayk3"
-  youtube = "channel/UCaHMgyMYY9snroJYI4b83-A"
+# Footer Navigation
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1
 
+[[menu.footer]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.footer]]
+name = "Privacy Policy"
+url = "/privacy"
+weight = 3

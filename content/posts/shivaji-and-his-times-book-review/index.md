@@ -6,7 +6,24 @@ categories: [blog, books]
 excerpt:
 tags: [blog, books, history]
 date: 2016-04-10T03:14:10+00:00
-comments: true
+type: standard-view
+weight: 1
+
+featured: false
+sidebar: true
+toc: true
+math:
+  enable: false
+lightgallery: false
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+author: Ajay Nadathur
+description: "A review of Jadunath Sarkar's 'Shivaji and His Times', exploring the life and achievements of the legendary Maratha king who challenged Mughal rule and established Hindu Swaraj."
+resources:
+  - name: featured-image
+    src: banner.jpg
 ---
 
 After reading this [book](https://archive.org/details/shivajihistimes00sarkrich), I am in total awe and utter amazement thinking about this man we all know as *Chatrapati Shivaji*. I would like to salute this giant among Hindus a million times and even that wouldn't be enough to express the respect and gratitude I feel towards this man. 

@@ -1,12 +1,29 @@
 ---
 title: "Book review: Pandora's Lab"
 date: 2020-01-25T23:58:09+05:30
+type: standard-view
+weight: 1
+
+featured: false
+sidebar: true
+toc: false
+math:
+  enable: false
+lightgallery: false
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+author: Ajay Nadathur
+description: "A review of Paul Offit's 'Pandora's Lab' exploring the unintended consequences of scientific discoveries, from nitrogen fixation to eugenics and DDT."
+
+resources:
+  - name: featured-image
+    src: banner.jpg
 tags: [books, history]
-description: "A collection of seven stories that reminds everybody that 'The road to hell is paved with good intentions'"
 ---
 I placed an order for Pandora's Lab after reading about it in Abhinav Agarwal's blog titled "**Best books I read in 2019 and 2018**" [^1]. This was a quick read and I thoroughly enjoyed reading each chapter of the book. As a matter of fact, I would highly recommend carrying this book as your travel companion since its pretty easy to pick up where you left off without having to remember too many details.
 
-<a target="_blank"  href="https://www.amazon.in/gp/product/1426217986/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=1426217986&linkCode=as2&tag=ajayns-21&linkId=c8f2663bdfef70b2d9f59e26f59ef2e9"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=1426217986&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=ajayns-21" ></a><img src="//ir-in.amazon-adsystem.com/e/ir?t=ajayns-21&l=am2&o=31&a=1426217986" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 **NOTE:** _Spoilers below, you've been warned_
 

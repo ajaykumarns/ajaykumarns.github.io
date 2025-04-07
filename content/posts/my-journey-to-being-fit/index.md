@@ -2,9 +2,27 @@
 title: "My Journey to being Fit"
 tags: [Creatine, Fitness Journey, Supplement Review]
 categories: [blog, fitness]
-
 date: 2024-12-09T15:36:26+05:30
 draft: false
+type: standard-view
+weight: 1
+
+featured: false
+sidebar: true
+toc: true
+math:
+  enable: false
+lightgallery: false
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+author: Ajay Nadathur
+description: "A personal account of my fitness journey, documenting weight loss goals, workout routines, and progress tracking. From joining Cult.fit to detailed exercise logs, this post shares insights on achieving a healthy BMI and building muscle."
+
+resources:
+  - name: featured-image
+    src: blog-image.jpg
 ---
 
 # TLDR;

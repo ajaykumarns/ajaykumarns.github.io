@@ -1,14 +1,43 @@
 ---
 title: "Running CrewAI with Local Models: Observations and Insights"
-tags: [CrewAI, AI Agents, Local LLMs, Python]
-categories: [blog, tech]
-date: 2025-04-03T10:30:00+05:30
+subtitle: "A practical guide to running CrewAI with local models"
+date: 2024-04-07T10:30:00+05:30
+lastmod: 2024-04-07T10:30:00+05:30
 draft: false
+type: standard-view
+weight: 1
+
+featured: true
+sidebar: true
+toc: true
+math:
+  enable: false
+lightgallery: false
+license: ""
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+author: Ajay Nadathur
+description: "A practical guide to running CrewAI with local models, including performance benchmarks on M3 MacBook Air and insights on agent-based book writing using chain-of-thought approach"
+
+tags:
+  - CrewAI
+  - AI Agents
+  - Local LLMs
+  - Python
+categories:
+  - blog
+  - tech
+
+resources:
+  - name: featured-image
+    src: blog-posts.jpg
 ---
 
 # Introduction
 
-While exploring CrewAI and running agents locally, I came across a [post on Twitter](https://x.com/_avichawla/status/1900434449797701942) claiming it’s possible to run CrewAI with Gemma and use it to generate a small book. I replicated most of the code and tried running it locally. Initially, it didn’t work, but with some minor modifications, I managed to get it running successfully.
+While exploring CrewAI and running agents locally, I came across a [post on Twitter](https://x.com/_avichawla/status/1900434449797701942) claiming it's possible to run CrewAI with Gemma and use it to generate a small book. I replicated most of the code and tried running it locally. Initially, it didn't work, but with some minor modifications, I managed to get it running successfully.
 
 ## My Experiment: Book Writer with Local Models
 
@@ -24,7 +53,7 @@ The second approach, also known as chain-of-thought (CoT), helps the LLM solve t
 - **Chapter Researcher**: Researches specific chapter topics.
 - **Senior Writer**: Writes individual chapters based on the research.
 
-Each agent runs sequentially, and the output is passed to the next agent. The working script and instructions for running it are available on [GitHub](https://github.com/ajaykumarns/snippets/blob/main/crewai_bookwriter/book_writer.py). I recommend checking out the README and trying it yourself. If running locally isn’t feasible, OpenAI or Gemini API calls are suggested (and are likely much faster).
+Each agent runs sequentially, and the output is passed to the next agent. The working script and instructions for running it are available on [GitHub](https://github.com/ajaykumarns/snippets/blob/main/crewai_bookwriter/book_writer.py). I recommend checking out the README and trying it yourself. If running locally isn't feasible, OpenAI or Gemini API calls are suggested (and are likely much faster).
 
 ## Local Model Performance
 
@@ -39,16 +68,16 @@ Here are my observations on how the models performed:
 
 ### Gemma3:4b
 
-Google’s Gemma model delivered mixed results (at least for me, running locally):
+Google's Gemma model delivered mixed results (at least for me, running locally):
 
-1. It frequently failed to follow instructions and made errors when calling the web search tool. The tool required a string as an argument, but Gemma kept calling it with a dictionary. (I didn’t attempt fine-tuning or modifying the instructions.)
-2. Ollama timed out a couple of times, even though I had plenty of memory. While running `ollama ps`, it showed 100% GPU usage, but I’m unsure why.
+1. It frequently failed to follow instructions and made errors when calling the web search tool. The tool required a string as an argument, but Gemma kept calling it with a dictionary. (I didn't attempt fine-tuning or modifying the instructions.)
+2. Ollama timed out a couple of times, even though I had plenty of memory. While running `ollama ps`, it showed 100% GPU usage, but I'm unsure why.
 
-These issues caused multiple intermediate failures, and the book generation process often didn’t complete. Overall, it took around 20–30 minutes to run the experiment with Gemma, making it unreliable.
+These issues caused multiple intermediate failures, and the book generation process often didn't complete. Overall, it took around 20–30 minutes to run the experiment with Gemma, making it unreliable.
 
 ### Deepseek-r1:7b
 
-This model was quite slow on my laptop. After some testing, I discovered it didn’t support tool-calling, so any instructions requiring research were ignored.
+This model was quite slow on my laptop. After some testing, I discovered it didn't support tool-calling, so any instructions requiring research were ignored.
 
 ### Llama3.2
 
@@ -76,9 +105,9 @@ Your mileage may vary depending on your local memory and CPU capacity. I suggest
 
 ## Conclusion
 
-Overall, experimenting with CrewAI and running these models locally was an enjoyable experience. For my specific use case of automated book writing, Qwen2.5:3b provided the best balance of quality and performance among the local models tested. CrewAI’s flow-based system proved robust for managing complex, multi-stage content creation.
+Overall, experimenting with CrewAI and running these models locally was an enjoyable experience. For my specific use case of automated book writing, Qwen2.5:3b provided the best balance of quality and performance among the local models tested. CrewAI's flow-based system proved robust for managing complex, multi-stage content creation.
 
-If you’re interested in experimenting with CrewAI and local models, check out my [implementation on GitHub](https://github.com/ajaykumarns/snippets/blob/main/crewai_bookwriter/book_writer.py) and adapt it to your needs.
+If you're interested in experimenting with CrewAI and local models, check out my [implementation on GitHub](https://github.com/ajaykumarns/snippets/blob/main/crewai_bookwriter/book_writer.py) and adapt it to your needs.
 
 ---
 
