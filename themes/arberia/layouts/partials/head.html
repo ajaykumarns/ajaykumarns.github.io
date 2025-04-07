@@ -70,9 +70,6 @@
 	{{ $search := (slice $mark $basesearch) | resources.Concat "js/search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Fingerprint }}
 	<script defer crossorigin="anonymous" src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}">
 	</script>
-	<!-- 100% privacy-first analytics -->
-	<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
 	{{- end -}}
 
 	{{ "<!-- OpenGraph + Twitter + Analytics + Disqus -->" | safeHTML }}
@@ -81,6 +78,8 @@
 	<meta property="og:image" content="{{ . | absURL }}" />
 	{{ end }}
 	{{- end -}}
+	<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
 	<!-- Direct table styling override -->
 	<style>
 		table {
