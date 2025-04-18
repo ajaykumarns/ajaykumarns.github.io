@@ -59,3 +59,6 @@ I love travelling and exploring new places. Some of the countries I've visited i
 ## 🏭 What I'm building  
  - https://sonictext.xyz - Smart transcripts for your audio/video content
  - https://pdfmagix.com - Powerful PDF tools designed to streamline your document workflow with precision and simplicity.
+
+ ## Presentations/Talks
+- <a href="/presentations/full-stack-flask-app/index.html" target="_blank">Developing full stack applications using flask</a> - Talk given on 4/19/2025 at BangPypers (Bengaluru Python Users Group) 
