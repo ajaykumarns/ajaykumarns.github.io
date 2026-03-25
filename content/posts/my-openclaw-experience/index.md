@@ -1,12 +1,15 @@
 ---
 title: "My OpenClaw Experience"
+subtitle: "Building an AI assistant that actually works"
 tags: [OpenClaw, AI, Self-hosting, Productivity, Telegram, Tailscale]
 categories: [blog, tech]
 date: 2026-03-25T09:47:00+08:00
+lastmod: 2026-03-25T09:47:00+08:00
 draft: false
 type: standard-view
 weight: 1
-featured: false
+featured: true
+cover: "/images/feature.png"
 sidebar: true
 toc: true
 math:

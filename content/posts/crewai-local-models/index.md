@@ -7,7 +7,7 @@ draft: false
 type: standard-view
 weight: 1
 
-featured: true
+featured: false
 sidebar: true
 toc: true
 math:
