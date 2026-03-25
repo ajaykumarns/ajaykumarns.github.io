@@ -6,10 +6,9 @@ categories: [blog, tech]
 date: 2026-03-25T09:47:00+08:00
 lastmod: 2026-03-25T09:47:00+08:00
 draft: false
-type: standard-view
+type: cover-view
 weight: 1
 featured: true
-cover: "/images/feature.png"
 sidebar: true
 toc: true
 math:
@@ -19,6 +18,10 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 author: Ajay Nadathur
 description: "My curiosity got the best of me, gave into the temptation of setting up OpenClaw"
+
+resources:
+  - name: featured-image
+    src: feature.png
 ---
 
 ## What's OpenClaw?
