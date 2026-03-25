@@ -25,21 +25,17 @@
      class="rounded-circle img-fluid w-100" sizes="10vw" alt="{{ .Params.author | markdownify }}"></a>
    </div>
 
-   <div class="col pr-0 d-flex align-items-center">
-     <p>
-    <span class="text-muted">
-      <span class="mr-2"><a class="text-muted" href="{{.Params.authorLink | urlize }}"
-       target="_blank">{{ .Params.author | markdownify }}</a></span>
-      <br>
-      <span class="fa fa-clock-o"></span> <time>{{ .PublishDate | time.Format .Site.Params.dateFormat }}</time>
-      {{/*  Tag list  */}}
-      {{ partial "components/tag.html" . }}
-      <div class="float-right mt-2">
-        {{ partial "components/share-buttons.html" . }}
-      </div>
-    </span>
-     </p>
-   </div>
+<div class="col pr-0 d-flex align-items-center">
+     <span class="text-muted">
+       <a class="text-muted" href="{{.Params.authorLink | urlize }}" target="_blank">{{ .Params.author | markdownify }}</a>
+       <span class="ml-2 fa fa-clock-o"></span> <time>{{ .PublishDate | time.Format .Site.Params.dateFormat }}</time>
+       {{/*  Tag list  */}}
+       {{ partial "components/tag.html" . }}
+       <div class="float-right mt-2">
+         {{ partial "components/share-buttons.html" . }}
+       </div>
+     </span>
+    </div>
 
     </div>
   </div>
