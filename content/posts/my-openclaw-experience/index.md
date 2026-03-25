@@ -6,8 +6,9 @@ categories: [blog, tech]
 date: 2026-03-25T09:47:00+08:00
 lastmod: 2026-03-25T09:47:00+08:00
 draft: false
-type: cover-view
+type: standard-view
 weight: 1
+
 featured: true
 sidebar: true
 toc: true
