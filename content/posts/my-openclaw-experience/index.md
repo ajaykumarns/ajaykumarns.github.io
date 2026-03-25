@@ -58,13 +58,15 @@ I tried several models:
 
 ## Tips
 
-Turn on verbose mode (`/verbose`) for the first few days. You can catch the agent early if it's doing something unexpected or burning tokens unnecessarily. The bot has full system access—it can edit its own configuration and restart services. It still feels unreal that it can modify itself. Unfortunately, it's not foolproof; you can brick the installation quite easily.
+Here are a few things I learned the hard way.
 
-Experiment with personas and see what sticks. I started with a genderless bot, then made it female with a nice Indian name. I had it generate a self-portrait for its Telegram profile pic! One feature request for Telegram: I wish bots could update their own profile pics and descriptions—it would make them feel more lively. As for WhatsApp setup, I skipped it since it requires a separate phone number.
+First up: turn on verbose mode (`/verbose`) for the first few days. You can catch the agent early if it's doing something unexpected or burning tokens unnecessarily. The bot has full system access—it can edit its own configuration and restart services. It still feels unreal that it can modify itself. Unfortunately, it's not foolproof; you can brick the installation quite easily.
+
+When it comes to personas, experiment and see what sticks. I started with a genderless bot, then made it female with a nice Indian name. I had it generate a self-portrait for its Telegram profile pic! One feature request for Telegram: I wish bots could update their own profile pics and descriptions—it would make them feel more lively. As for WhatsApp setup, I skipped it since it requires a separate phone number.
 
 If you code, install `opencode` or `claude` and ask OpenClaw to invoke these CLI tools. It works surprisingly well. But be careful with Google account access—I haven't and won't trust an agent without hard guardrails. I'm considering setting up a shadow account for email forwarding, giving the agent full access only to that.
 
-Use Tailscale to set up an alias for your VPS and enable Tailscale SSH. It's safe and super easy to log in. Also, lock down your Telegram settings—make sure your bot isn't open to random strangers messaging it. Finally, don't upgrade OpenClaw impulsively. It's still rough around the edges. I did and paid dearly with hours of debugging. See [here](https://github.com/openclaw/openclaw/issues/53099) and this:
+A few other things: use Tailscale to set up an alias for your VPS and enable Tailscale SSH. It's safe and super easy to log in. Lock down your Telegram settings—make sure your bot isn't open to random strangers messaging it. And don't upgrade OpenClaw impulsively. It's still rough around the edges. I did and paid dearly with hours of debugging. See [here](https://github.com/openclaw/openclaw/issues/53099) and this:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I missed a release step last night with the web control UI assets, current release doesn't load that correctly, you can update to beta where it's fixed, or wait for the updated release later.<br><br>Just working on automating the whole release pipeline, and adding e2e tests for web.</p>&mdash; Peter Steinberger 🦞 (@steipete) <a href="https://twitter.com/steipete/status/2036218803001114779?ref_src=twsrc%5Etfw">March 23, 2026</a></blockquote> <script async="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
