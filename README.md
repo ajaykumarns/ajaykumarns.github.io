@@ -2,105 +2,51 @@
 
 Personal blog built with Hugo, hosted on GitHub Pages.
 
-## 🚀 Quick Start
-
-### Running Locally
+## Quick Start
 
 ```bash
-# Serve the site locally (with live reload)
+# Install Hugo (macOS)
+brew install hugo
+
+# Serve locally with drafts
 hugo server -D
 
-# Or build for production
-hugo
-```
-
-### Creating New Posts
-
-```bash
-# Create a new post (replace 'my-post-title' with your title)
+# Create new post
 hugo new posts/my-post-title/index.md
 ```
 
-Posts are created in `content/posts/`. Edit the front matter in each post:
-- `title`: Post title
-- `date`: Publication date
-- `draft`: Set to `false` to publish
+## Publishing
 
-## 📝 Publishing Blogs
+### Automatic (GitHub Actions)
+Push to `site` branch - GitHub Actions auto-builds and deploys.
 
-### Option 1: Using the publish script (recommended)
-
+### Manual
 ```bash
-# Make sure you're on the main branch with all changes committed
-git status  # Should be clean
-
-# Run the publish script
 ./publish.sh
+cd public && git push origin master
 ```
 
-The script will:
-1. Check for uncommitted changes (exits if any)
-2. Create a git worktree with the `master` branch
-3. Build the Hugo site to `public/`
-4. Commit the built files to master
-
-**Important:** After running `./publish.sh`, you MUST manually push:
-
-```bash
-cd public
-git push origin master
-```
-
-### Option 2: Manual publish
-
-```bash
-# Build the site
-hugo
-
-# The generated files are in the `public/` directory (if you ran hugo with -d public)
-# Or if using the worktree approach:
-cd public
-git add --all
-git commit -m "Publishing blog"
-git push origin master
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── content/          # Your content (posts, about, etc.)
-│   ├── posts/        # Blog posts
-│   ├── about/        # About page
-│   └── bookshelf.md  # Books page
-├── layouts/          # Hugo templates
-├── static/           # Static assets (images, etc.)
-├── themes/           # Hugo themes
-├── config.toml       # Site configuration
-└── publish.sh        # Publishing script
+content/posts/    → Blog posts (Markdown)
+content/about/    → About page
+static/           → Images and assets
+themes/arberia/   → Hugo theme
+config.toml       → Site configuration
 ```
 
-## 🔧 Requirements
+## Requirements
 
-- **Hugo**: Install via `brew install hugo` (macOS) or download from https://gohugo.io/
+- **Hugo** (extended version): Install via `brew install hugo` or download from https://gohugo.io/
 - **Git**: For version control
 
-## ⚠️ Notes
+## Notes
 
-- The site uses GitHub Pages with the `master` branch as the publishing source
-- Posts in `content/posts/` with `draft: false` will be published
-- The `publish.sh` script uses git worktrees to keep source and built files separate
+- Source branch: `site` → Deploy branch: `master`
+- Set `draft: false` to publish posts
+- Theme is a git submodule - clone with `--recursive`
 
-## 🔄 CI/CD (Optional)
+---
 
-The repo includes GitHub Actions workflows in `.github/` for automatic builds. If enabled:
-- Push to `main` branch triggers automatic build
-- Built files pushed to `master` branch
-
-## 📝 Updating "About" Page
-
-Edit: `content/about/index.md`
-
-To mark projects as retired, use the strikethrough format:
-```markdown
-- ~~https://example.com~~ - 🏁 Retired - Description
-```
+For detailed conventions, frontmatter reference, and development guidelines, see [AGENTS.md](AGENTS.md).
