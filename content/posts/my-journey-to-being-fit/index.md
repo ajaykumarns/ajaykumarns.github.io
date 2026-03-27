@@ -167,6 +167,16 @@ This is a continuous journey. Sustainable weight loss requires a lifelong change
 
 Feel free to reach out with questions or suggestions!
 
+## References
+
+- [BMI Calculator](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm) - Calculate your Body Mass Index
+- [Creatine: Benefits, Usage, and Side Effects](https://examine.com/supplements/creatine/) - Comprehensive guide on creatine supplementation
+- [Protein Requirements for Muscle Building](https://www.healthline.com/nutrition/how-much-protein-per-day) - Understanding daily protein needs
+- [Cult.fit](https://www.cult.fit/) - Fitness platform offering gym and workout classes
+- [Psyllium Husk Benefits](https://www.healthline.com/nutrition/psyllium-husk-benefits) - Health benefits of psyllium husk fiber
+- [Magnesium for Athletes](https://www.healthline.com/nutrition/magnesium-benefits) - Importance of magnesium for muscle recovery
+- [Resistance Training for Weight Loss](https://www.healthline.com/nutrition/resistance-training-weight-loss) - How strength training aids fat loss
+
 ---
 
 *Disclaimer: Always consult a professional before making significant changes to your diet or fitness routine.*
