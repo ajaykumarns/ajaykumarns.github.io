@@ -77,3 +77,11 @@ I also think it is high time to implement fines to discourage folks from litteri
 Unless people stop littering in sacred places such as temples, you can never have Swachh Bharat.
 
 {{< figure src="/images/narasimha_konda/dealwithit.jpg" >}}
+
+## References
+
+- [Narasimha Konda - Wikipedia](https://en.wikipedia.org/wiki/Narasimha_Konda) - Temple information and history
+- [Narasimha Avatar](https://en.wikipedia.org/wiki/Narasimha) - About Lord Narasimha
+- [Swachh Bharat Mission](https://swachhbharatmission.gov.in/) - Official Clean India campaign website
+- [Nellore District Tourism](https://en.wikipedia.org/wiki/Nellore_district) - About Nellore and surrounding areas
+- [Lord Vishnu](https://en.wikipedia.org/wiki/Vishnu) - About Vishnu and his avatars
