@@ -109,6 +109,16 @@ Overall, experimenting with CrewAI and running these models locally was an enjoy
 
 If you're interested in experimenting with CrewAI and local models, check out my [implementation on GitHub](https://github.com/ajaykumarns/snippets/blob/main/crewai_bookwriter/book_writer.py) and adapt it to your needs.
 
+## References
+
+- [CrewAI Documentation](https://docs.crewai.com/) - Official documentation for CrewAI framework
+- [Ollama](https://ollama.ai/) - Run large language models locally
+- [Qwen2.5 Model](https://qwenlm.github.io/) - Alibaba's Qwen language models
+- [Gemma Model](https://ai.google.dev/gemma) - Google's open-weight language model
+- [Llama Models](https://www.llama.com/) - Meta's Llama language models
+- [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) - DeepSeek's reasoning model
+- [Chain-of-Thought Prompting Paper](https://arxiv.org/abs/2201.11903) - Research paper on chain-of-thought reasoning
+
 ---
 
 *Have you experimented with CrewAI or similar agent frameworks? Share your experiences!*
