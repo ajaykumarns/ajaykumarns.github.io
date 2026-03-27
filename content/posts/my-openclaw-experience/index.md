@@ -18,7 +18,7 @@ lightgallery: false
 hiddenFromHomePage: false
 hiddenFromSearch: false
 author: Ajay Nadathur
-description: "My curiosity got the best of me, gave into the temptation of setting up OpenClaw"
+description: "My curiosity got the best of me, and I gave into the temptation of setting up OpenClaw"
 
 resources:
   - name: featured-image
