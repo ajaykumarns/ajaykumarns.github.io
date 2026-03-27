@@ -3,7 +3,7 @@ title: "Privacy Policy"
 date: 2026-03-26
 lastmod: 2026-03-26
 draft: false
-type: page
+type: standard-view
 ---
 
 ## Privacy Policy
