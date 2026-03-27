@@ -1,5 +1,5 @@
 ---
-title: "My Journey to being Fit"
+title: "My Journey to Being Fit"
 tags: [Creatine, Fitness Journey, Supplement Review]
 categories: [blog, fitness]
 date: 2024-12-09T15:36:26+05:30
@@ -26,7 +26,7 @@ resources:
 ---
 
 # TLDR;
-I'm documenting my fitness journey with a goal to achieve a Normal BMI of 25 or below and maintain a healthy muscle build. This means reaching a consistent weight of 67 kg or less and losing a total of 13 kg or more.
+I'm documenting my fitness journey with a goal to achieve a normal BMI of 25 or below and maintain a healthy muscle build. This means reaching a consistent weight of 67 kg or less and losing a total of 13 kg or more.
 
 # Introduction
 
@@ -72,13 +72,13 @@ Here’s my workout schedule until last week (Dec 8, 2024):
   * 4x Incline Bench Press (Barbell) - Best: 35kg x 7
   * 4x Bench Press (Barbell) - Best: 37.5kg x 7
   * 4x Decline Bench Press (Smith Machine) - Best: 35kg x 9
-  * 4x Chess Fly (Machine) - Best: 39kg x 14
+  * 4x Chest Fly (Machine) - Best: 39kg x 14
   * 4x Pullover (Dumbbell) - Best: 12.5kg x 10
   * 4x Overhead Triceps Extension (Cable) - Best: 11.3kg x 13
   * 4x One Arm Reverse Grip Pushdown (Cable) - Best: 6.8kg x 12
 * Day 3: Shoulder
   * 4x Overhead Press (Barbell) - Best: 25kg x 7
-  * 4x Front Raise (Dumbell / Plate)
+  * 4x Front Raise (Dumbbell / Plate)
   * 4x Lateral Raise (Cable) - Best: 4.5kg x 10
   * 4x Reverse Fly (Machine) - Best: 32kg x 12
   * 4x Face Pull (Cable) - Best: 15.9kg x 15
@@ -89,7 +89,7 @@ Here’s my workout schedule until last week (Dec 8, 2024):
   * 4x Lat Pulldown (Narrow grip) - Best: 39kg x 10
   * 4x Bent Over Row (Barbell)
   * 4x Bicep Curl (Barbell) - Best: 25kg x 10
-  * 4x Incline/Decline Curl (Dumbell)
+  * 4x Incline/Decline Curl (Dumbbell)
   * 4x Hammer Curl (Dumbbell)
   * 4x Concentration Curl (Dumbbell)
   * 4x Preacher Curl (Dumbbell)
@@ -118,7 +118,7 @@ Being South Indian, avoiding rice is tough. To reduce its impact, I:
   * 1/3rd of the plate: Freeze the rice to reduce carb load, research article [here](https://pubmed.ncbi.nlm.nih.gov/26693746/)
   * 1/3rd of the plate: Fried Veggies (Broccoli, Cauliflower, French Beans)
   * 1/3rd of the plate:
-    * 4 pieces of Tempeh Tofu. Hello Tempayy's [Thai Chilli Thins](https://amzn.in/d/eVsZQUl) are quite delicious! I just fry them for few minutes and eat with rice. (~10g of protein)
+    * 4 pieces of Tempeh Tofu. Hello Tempayy's [Thai Chilli Thins](https://amzn.in/d/eVsZQUl) are quite delicious! I just fry them for a few minutes and eat with rice. (~10g of protein)
     * or 1-2 cups of chickpea (~20g of protein)
   * Yogurt (50-100g) - gives you (~10g of protein)
 ### Evenings
@@ -134,7 +134,7 @@ Here are some of the top supplements that I started consuming regularly:
 
 ### Psyllium Husk Powder
 
-Psyllium Husk is soluble fiber that helps regulate high cholesterol, triglyceriders and blood sugar levels. I take 2 teaspoons with one
+Psyllium Husk is soluble fiber that helps regulate high cholesterol, triglycerides and blood sugar levels. I take 2 teaspoons with one
 glass of water after coming back from the gym (before lunch). There are many products available on amazon, but I'm currently using 
 Baidyanath's [Isabgol](https://amzn.in/d/16QyKrL). The morning shits are glorious! Loving it.
 
@@ -147,8 +147,7 @@ benefits of creatine. Joe Rogan also spoke about it in one of his podcast episod
 suggest increasing creatine intake progressively. I made the mistake of taking creatine with Coffee and
 had really bad cramps and the worst shit you can ever have.*
 
-Currently, I take around ~3g of creatine after coming back from the gym (Optimum Nutrition's 100g product on [amazon](https://amzn.in/d/hW1tEJP)). This is purely anecdotal so your mileage may vary but, I've noticed reduced fatigue after lifting weights and also increase in
-muscle strength & recovery time.
+Currently, I take around ~3g of creatine after coming back from the gym (Optimum Nutrition's 100g product on [amazon](https://amzn.in/d/hW1tEJP)). This is purely anecdotal so your mileage may vary, but I've noticed reduced fatigue after lifting weights and an increase in muscle strength and recovery time.
 
 **WARNING**: *Do your own research before taking creatine but there are warnings out there that this may affect those with high blood pressure
 or kidney in worse condition.*
