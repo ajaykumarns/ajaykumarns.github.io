@@ -51,3 +51,11 @@ Explores the topic of DDT and how it was banned from the first world. Surprised 
 [^2]: [Hitler's debt to America](https://www.theguardian.com/uk/2004/feb/06/race.usa)
 [^3]: [How American Racism Influenced Hitler](https://www.newyorker.com/magazine/2018/04/30/how-american-racism-influenced-hitler)
 [^4]: [DDT production in India](https://en.wikipedia.org/wiki/DDT#cite_note-DDTBP.1/2-20)
+
+## References
+
+- [Pandora's Lab on Goodreads](https://www.goodreads.com/book/show/35838284-pandora-s-lab) - Book information and reviews
+- [Paul Offit - Author Biography](https://en.wikipedia.org/wiki/Paul_Offit) - About the author
+- [Fritz Haber - Wikipedia](https://en.wikipedia.org/wiki/Fritz_Haber) - Learn more about the nitrogen fixation pioneer
+- [Eugenics Movement in America](https://www.history.com/news/eugenics-america-immigration-anti-miscegenation-laws) - History of eugenics in the UnitedStates
+- [DDT Wikipedia](https://en.wikipedia.org/wiki/DDT) - Comprehensive information about DDT
