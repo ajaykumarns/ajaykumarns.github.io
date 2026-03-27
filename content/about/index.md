@@ -29,7 +29,7 @@ I'm a passionate technologist and software engineer based out of Bangalore, Indi
 
 ## 🔥 What I'm doing now 
 
-I'm currently working on a bunch of projects and learning new things during my spare time. My core areas of expertise include:
+Currently working at [DKatalis](https://dkatalis.com/) as a software developer, focused on mobile app development, backend, and working on banking internal products with AI integration. My core areas of expertise include:
 - 📱Mobile App Development
 - 📚Full stack Development
 - 🤖LLM use cases/Agents.
@@ -59,6 +59,9 @@ I love travelling and exploring new places. Some of the countries I've visited i
 ## 🏭 What I'm building  
  - ~~https://sonictext.xyz~~ - 🏁 Retired - Smart transcripts for your audio/video content
  - ~~https://pdfmagix.com~~ - 🏁 Retired - Powerful PDF tools designed to streamline your document workflow with precision and simplicity.
+
+ ## 📖 Currently Reading
+- [Vibe Coding by Steve Yegge & Gene Kim](https://www.simonandschuster.com/books/Vibe-Coding/Gene-Kim/9781966280026)
 
  ## Presentations/Talks
 - <a href="/presentations/full-stack-flask-app/index.html" target="_blank">Developing full stack applications using flask</a> - Talk given on 4/19/2025 at BangPypers (Bengaluru Python Users Group) 
