@@ -26,7 +26,7 @@ resources:
     src: banner.png
 ---
 
-[*Narasimha Konda*](https://en.wikipedia.org/wiki/Narasimha_Konda) is a very famous temple dedicated to [Lord Narasimha](https://en.wikipedia.org/wiki/Narasimha), the fourth avatar of [Vishnu Bhagavan](https://en.wikipedia.org/wiki/Vishnu) near the outskirts of Nellore. Eager to get the blessings of the Narasimha Bhagavan, I went along with my relatives living in Nellore during the month of December, 2015. The journey to the temple is quite pleasant - surrounded by mountains and green cultivation fields, its a pleasant drive away from all madness that tends to plague cities. Along the way, one of the Nellore Tanks was overflowing onto the roads. 
+[*Narasimha Konda*](https://en.wikipedia.org/wiki/Narasimha_Konda) is a very famous temple dedicated to [Lord Narasimha](https://en.wikipedia.org/wiki/Narasimha), the fourth avatar of [Vishnu Bhagavan](https://en.wikipedia.org/wiki/Vishnu) near the outskirts of Nellore. Eager to get the blessings of the Narasimha Bhagavan, I went along with my relatives living in Nellore during the month of December, 2015. The journey to the temple is quite pleasant - surrounded by mountains and green cultivation fields, it's a pleasant drive away from all the madness that tends to plague cities. Along the way, one of the Nellore Tanks was overflowing ontothe roads. 
 
 ## Entrance
 
@@ -39,11 +39,11 @@ Getting past the gopura, we waded through a thick cloud of smoke. Looking around
 {{< figure src="/images/narasimha_konda/homa.jpg" >}}
 
 ## Waiting for Darshan
-To our disappointment, the main deity's darshan was closed; More than a hour of waiting. Wondering what to do with the extra time we had on our hands, I decided to experiment with my new camera 😉. I climbed to the highest platform and treated myself to an excellent view of the pristine surroundings. Monkeys! That's the first thing I see after climbing up... 
+To our disappointment, the main deity's darshan was closed; more than an hour of waiting. Wondering what to do with the extra time we had on our hands, I decided to experiment with my new camera 😉. I climbed to the highest platform and treated myself to an excellent view of the pristine surroundings. Monkeys! That's the first thing I see after climbing up... 
 
 {{< figure src="/images/narasimha_konda/monkey_grooming.jpg" title="Monkey grooming each other" >}}
 
-My relatives explained to me that Nellore and its neighboring towns play host to a large monkey population; They manage to get inside houses and turn everything upside down while looking for things to eat. One of these monkeys sneaked into my friend's apartment and threw her laptop down damaging it in the process! Is there insurance for damages caused by monkeys 😂? I was reminded of this when the monkeys started fighting each other and making violent noices.
+My relatives explained to me that Nellore and its neighboring towns play host to a large monkey population; they manage to get inside houses and turn everything upside down while looking for things to eat. One of these monkeys sneaked into my friend's apartment and threw her laptop down, damaging it in the process! Is there insurance for damages caused by monkeys 😂? I was reminded of this when the monkeys started fighting each other and making violent noises.
 
 {{< figure src="/images/narasimha_konda/monkey_violent.jpg" title="Aggressive bunch of monkeys are a threat to temple devotees!" >}}
 
@@ -59,13 +59,13 @@ This is not something new to me. Since my childhood, I have gone along(not willi
 Its like keeping shit on your plate right next to your food. Would you do that? I don't think I can. I squarely blame the current education system which causes apathy and disregard for cleanliness in the public spaces such as roads. But throwing shit inside sacred places such as temples is just beyond comprehension. 
 
 
-## Swachh Bharat ?
+## Swachh Bharat?
 
-Our prime minister Narendra Modi(2014) talks about [Swachh Bharat](http://swachhbharaturban.gov.in/)(which means **"Clean India"**) and the importance of cleanliness and some people believe its not [working](http://timesofindia.indiatimes.com/india/Rahul-discomfited-as-girls-give-Swachh-Bharat-Make-in-India-a-thumbs-up/articleshow/49920522.cms). But shouldn't education start at temples which Hindus frequent ? (**Note**: *I am explicitly not mentioning other religions because, I don't want to divert our focus from Hindu temples and places we hold sacred*). 
+Our prime minister Narendra Modi(2014) talks about [Swachh Bharat](http://swachhbharaturban.gov.in/)(which means **"Clean India"**) and the importance of cleanliness, and some people believe it's not [working](http://timesofindia.indiatimes.com/india/Rahul-discomfited-as-girls-give-Swachh-Bharat-Make-in-India-a-thumbs-up/articleshow/49920522.cms). But shouldn't education start at temples which Hindus frequent? (**Note**: *I am explicitly not mentioning other religions because I don't want to divert our focus from Hindu temples and places we hold sacred*). 
 
-Instead of placing ads on tv motivating people not to litter, imparting education/information within religious places could play a very important role in providing impetus to the movement. You could educate people by placing boards with textual messages in various places around such buildings reminding them the importance of cleanliness (And please, no images of politicians or for that matter anybody on such boards).
+Instead of placing ads on TV motivating people not to litter, imparting education/information within religious places could play a very important role in providing impetus to the movement. You could educate people by placing boards with textual messages in various places around such buildings, reminding them of the importance of cleanliness (and please, no images of politicians or for that matter anybody on such boards).
 
-I also think it is high time to implement fines to discourage folks from littering/spitting inside temple premises. While this is very difficult to implement in public places, it is easy to execute such measures within Hindu temples/buildings because they are manageable using a couple of cctvs and a dedicated team of members.
+I also think it is high time to implement fines to discourage folks from littering/spitting inside temple premises. While this is very difficult to implement in public places, it is easy to execute such measures within Hindu temples/buildings because they are manageable using a couple of CCTVs and a dedicated team of members.
 
 ### TLDR;
 * Use Hindu temples to educate citizens about the importance of cleanliness and encourage them not to litter.
