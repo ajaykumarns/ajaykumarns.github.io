@@ -71,6 +71,8 @@ A few other things: use Tailscale to set up an alias for your VPS and enable Tai
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I missed a release step last night with the web control UI assets, current release doesn't load that correctly, you can update to beta where it's fixed, or wait for the updated release later.<br><br>Just working on automating the whole release pipeline, and adding e2e tests for web.</p>&mdash; Peter Steinberger 🦞 (@steipete) <a href="https://twitter.com/steipete/status/2036218803001114779?ref_src=twsrc%5Etfw">March 23, 2026</a></blockquote> <script async="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+**Back up your workspace regularly.** I can't stress this enough — your agent's memory, configuration, and learned context live in the workspace folder. A botched upgrade, accidental deletion, or filesystem hiccup can wipe it all out. Set up automated backups or a cron job to archive the workspace. Trust me, losing your agent's context after weeks of interaction is not fun.
+
 ## References
 
 - [OpenClaw](https://openclaw.ai) | [GitHub](https://github.com/openclaw/openclaw)
