@@ -21,16 +21,16 @@ resources:
 
 ---
 
-# 👋, I'm Ajay Nadathur
+# 👋, I'm Ajay Kumar
 
 *Software Engineer & Technology Enthusiast*
 
-I'm a passionate technologist and software engineer based out of Bangalore, India. This is my personal space on the internet where I share my thoughts, experiences, and learnings. I used to work at Google until I quit in October 2024. For more details about my career and projects, please visit my [LinkedIn profile](https://www.linkedin.com/in/nadathur/). 
+I'm a passionate technologist and software engineer based out of Singapore. This is my personal space on the internet where I share my thoughts, experiences, and learnings. I used to work at Google until I quit in October 2024. For more details about my career and projects, please visit my [LinkedIn profile](https://www.linkedin.com/in/nadathur/). 
 
 ## 🔥 What I'm doing now 
 
-Currently working at [DKatalis](https://dkatalis.com/) as a software developer, focused on mobile app development, backend, and working on banking internal products with AI integration. My core areas of expertise include:
-- 📱Mobile App Development
+Currently working at [DKatalis](https://dkatalis.com/) as a tech partner for [Jago Bank](https://www.jagobank.com/) (Indonesia), focused on banking technology solutions, AI integration, and building digital banking products. My core areas of expertise include:
+- 🏦 Banking Technology & Digital Transformation
 - 📚Full stack Development
 - 🤖LLM use cases/Agents.
 
