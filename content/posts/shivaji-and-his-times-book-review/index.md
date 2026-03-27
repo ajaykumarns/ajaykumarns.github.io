@@ -137,3 +137,13 @@ Shivaji died of fever and dysentry on 24-03-1680. Following his death there was 
 [^4]: He later comes back to the maratha side only to be re-imprisoned in panhala.
 [^5]: Shambuji was later tortured and killed by Aurangazib for refusing to convert to Islam.
 
+## References
+
+- [Shivaji and His Times - Archive.org](https://archive.org/details/shivajihistimes00sarkrich) - Full scanned copy of the book
+- [Jadunath Sarkar - Wikipedia](https://en.wikipedia.org/wiki/Jadunath_Sarkar) - About the author and historian
+- [Chhatrapati Shivaji Maharaj](https://en.wikipedia.org/wiki/Shivaji) - Wikipedia biography of Shivaji
+- [Maratha Empire](https://en.wikipedia.org/wiki/Maratha_Empire) - History of the Maratha Empire
+- [Treaty of Purandar (1665)](https://en.wikipedia.org/wiki/Treaty_of_Purandar_(1665)) - Historical context of the treaty
+- [Gingee Fort](https://en.wikipedia.org/wiki/Gingee_Fort) - One of the forts conquored by Shivaji
+- [Vellore Fort](https://en.wikipedia.org/wiki/Vellore_Fort) - Historical fort in Tamil Nadu
+
