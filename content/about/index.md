@@ -29,10 +29,10 @@ I'm a passionate technologist and software engineer based out of Singapore. This
 
 ## 🔥 What I'm doing now 
 
-Currently working at [DKatalis](https://dkatalis.com/) as a tech partner for [Jago Bank](https://www.jagobank.com/) (Indonesia), focused on banking technology solutions, AI integration, and building digital banking products. My core areas of expertise include:
-- 🏦 Banking Technology & Digital Transformation
+Currently working at [DKatalis](https://dkatalis.com/) as a tech partner for Jago Bank (Indonesia), focused on banking products and AI integration. My core areas of expertise include:
 - 📚Full stack Development
-- 🤖LLM use cases/Agents.
+- 🤖LLM use cases/Agents
+- 🏦Banking & Financial Technology
 
 ## 📚 What I'm learning 
 Lately, I've taken a lot of interest in:
