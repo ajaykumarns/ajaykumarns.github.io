@@ -1,1 +1,11 @@
-/* Insert here custom CSS */
+/* Featured image styling — rounded corners + zoom on hover */
+.embed-responsive-item {
+  border-radius: 0.5rem !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.embed-responsive-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
