@@ -29,21 +29,21 @@ resources:
 
 ## The Conversation That Started It All
 
-Walking back to the office today reminded me of a conversation with a Google teammate over 10 years ago. We were discussing Ruby's guiding principle — making programming languages easier for humans.
+Walking back to the office today, I found myself thinking about a conversation with a Google teammate over 10 years ago. We were discussing Ruby's guiding principle — making programming languages easier for humans.
 
 Yukihiro Matsumoto, the creator of Ruby, put it best: *"Often people, especially computer engineers, focus on the machines... But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves."*
 
-He advocated for a shift *"from a machine-centered paradigm to a human-centered one."* And in 1993, he noted: *"I felt scripting to be the way future programming should be — human-oriented."*
+He advocated for a shift *"from a machine-centered paradigm to a human-centered one."* And back in 1993, he noted: *"I felt scripting to be the way future programming should be — human-oriented."*
 
-XML isn't something a human should have to edit.
+This human-centered vision was the promise. But getting there meant living through decades of tooling that felt anything but human-friendly.
 
 ## The Makefile Era
 
-When I started working on the Android platform at Google, there was no Android Studio. Everything was a simple makefile-style repository — you couldn't even import it into IntelliJ. For someone coming from a Java world used to IntelliJ, this was painful.
+When I started working on the Android platform at Google, there was no Android Studio. Everything was a simple makefile-style repository — you couldn't even import it into IntelliJ. For someone coming from a Java world used to IntelliJ, this was a shock.
 
 Even if I manually added project sources to the IDE, everything would show up with errors because none of the libraries would be available in the classpath. Most folks ended up using Vim, Emacs, or their own personal editor, running commands manually with make, and figuring out how to run a particular test.
 
-During my time on the Android Pixel team building the Setup Wizard, I remember commenting how absurd it was that humans were expected to manually edit XML files to fix Android layer bugs.
+I remember commenting how absurd it was that humans were expected to manually edit XML files to fix Android layer bugs. XML isn't something a human should have to edit.
 
 ## Before Robolectric
 
@@ -58,23 +58,23 @@ Imagine having to:
 
 No visual editors. No hot reload. This was the state of the art back then.
 
-## More Human-Centric Development
+## The Journey Toward Human-Centric Development
 
-Looking back now, that primitive system was just a stepping stone. Every painful make command, every manual XML edit, every long rebuild cycle — it all led us here.
+Looking back, that primitive system was just a stepping stone. Every painful make command, every manual XML edit, every long rebuild cycle — it all led us here. Each era of tooling brought small improvements, but nothing prepared us for what would come next.
 
 We finally have development that's truly human-centric. We no longer have to do these stupid things. We can just tell the AI what we want, and it will build it for us.
 
-The future of development isn't about memorizing build systems or wrestling with XML files. It's about describing what you want and letting the machine handle the rest.
+The future of development isn't about memorizing build systems or wrestling with XML files. It's about describing what you want and letting the machine handle the rest. Matz saw this future decades ago — we're finally living in it.
 
 What great times to be alive.
 
----
-
 ## Don't Stick Your Head in the Sand
 
-I am still surprised to see people who refuse to even try the new development methodology using LLMs. I guess these people have never experienced the pain of developing applications in their lives. It almost feels like they're sticking their head in the sand, refusing to even try the new way of development.
+Given everything we've covered, I am still surprised to see people who refuse to even try AI-assisted development. It almost feels like they're sticking their head in the sand, refusing to acknowledge how far we've come.
 
 If budget is a factor, try free tools such as OpenCode. Give it a genuine shot. You might be surprised by what you're capable of building when the machines actually work for you.
+
+---
 
 ## References
 
