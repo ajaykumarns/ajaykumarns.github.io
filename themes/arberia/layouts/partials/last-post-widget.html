@@ -8,7 +8,7 @@
 
   <div class="row">
 
- {{- $pages := (where .Site.RegularPages "Section" "posts").ByDate.Reverse -}}
+ {{- $pages := (where .Site.RegularPages "Section" "in" (slice "posts" "blogs")).ByDate.Reverse -}}
  {{- if .Site.Params.page.hiddenFromHomePage -}}
  {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
  {{- else -}}

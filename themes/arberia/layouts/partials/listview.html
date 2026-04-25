@@ -9,7 +9,7 @@
         class="{{ if not .Page.Params.sidebar }} col-md-12 col-lg-12 {{else}} col-md-11 col-lg-8 {{ end }} article">
         {{/* <div id="resultsArea" class="col-md-11 col-lg-8 article"></div> */}}
 
-        {{ $allPosts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+        {{ $allPosts := (where .Site.RegularPages "Section" "in" (slice "posts" "blogs")).ByDate.Reverse }}
         {{ $paginator := .Paginate (after 6 $allPosts) (.Site.Params.paginate | default 5) }}
 
         {{/* {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }} */}}
