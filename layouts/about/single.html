@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <article class="shell about-layout">
+    <header class="about-header">
+      {{ with (.Resources.GetMatch (.Params.avatar | default "me.jpg")) }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Params.author | default $.Site.Params.author }}" width="144" height="144">
+      {{ end }}
+      <div>
+        <p class="eyebrow">About</p>
+        <h1>{{ .Params.author | default .Title | markdownify }}</h1>
+        {{ with .Params.subtitle }}<p class="deck">{{ . | markdownify }}</p>{{ end }}
+        <div class="social-row">
+          {{ with .Site.Params.social.github }}<a href="{{ . }}">GitHub</a>{{ end }}
+          {{ with .Site.Params.social.linkedin }}<a href="{{ . }}">LinkedIn</a>{{ end }}
+          {{ with .Site.Params.social.twitter }}<a href="{{ . }}">Twitter</a>{{ end }}
+        </div>
+      </div>
+    </header>
+    <div class="prose page-prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

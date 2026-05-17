@@ -1,0 +1,13 @@
+{{- $img := false -}}
+{{- with (.Resources.ByType "image").GetMatch "featured-image" -}}
+  {{- $img = . -}}
+{{- else -}}
+  {{- with (.Resources.ByType "image").GetMatch "*feature*" -}}
+    {{- $img = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $img -}}
+  <figure class="cover-image{{ with $.Scratch.Get "coverClass" }} {{ . }}{{ end }}">
+    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="{{ $.Scratch.Get "coverLoading" | default "lazy" }}">
+  </figure>
+{{- end -}}

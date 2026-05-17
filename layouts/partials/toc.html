@@ -1,0 +1,6 @@
+{{ if and .Params.toc (gt .WordCount (.Site.Params.tocMinWordCount | default 100)) }}
+  <aside class="article-toc" aria-label="Table of contents">
+    <p>Contents</p>
+    {{ .TableOfContents }}
+  </aside>
+{{ end }}

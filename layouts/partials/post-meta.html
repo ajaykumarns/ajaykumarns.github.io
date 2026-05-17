@@ -1,0 +1,11 @@
+<div class="post-meta">
+  {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format ($.Site.Params.dateFormat | default "January 2, 2006") }}</time>{{ end }}
+  {{ with .ReadingTime }}<span>{{ . }} min read</span>{{ end }}
+  {{ with .Params.tags }}
+    <span class="tag-list">
+      {{ range first 3 . }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}
+    </span>
+  {{ end }}
+</div>

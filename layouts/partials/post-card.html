@@ -1,0 +1,15 @@
+<article class="post-card">
+  <a class="post-card-media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
+    {{ .Scratch.Set "coverClass" "card-cover" }}
+    {{ .Scratch.Set "coverLoading" "lazy" }}
+    {{ partial "cover-image.html" . }}
+    {{ .Scratch.Delete "coverClass" }}
+    {{ .Scratch.Delete "coverLoading" }}
+  </a>
+  <div class="post-card-body">
+    {{ partial "post-meta.html" . }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . | markdownify }}</p>{{ end }}
+    <p>{{ .Description | default .Summary | plainify | truncate 180 }}</p>
+  </div>
+</article>

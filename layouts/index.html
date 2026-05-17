@@ -1,0 +1,63 @@
+{{ define "main" }}
+  {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+  {{- $posts = where $posts "Params.hiddenFromHomePage" "!=" true -}}
+  {{- $posts = $posts.ByDate.Reverse -}}
+  {{- $featured := first 1 ((where $posts "Params.featured" true).ByDate.Reverse) -}}
+  {{- $hero := cond (gt (len $featured) 0) (index $featured 0) (index $posts 0) -}}
+
+  <section class="home-hero shell">
+    <div class="home-intro">
+      <p class="eyebrow">Personal notebook</p>
+      <p>{{ .Site.Params.subtitle }}</p>
+    </div>
+    {{ with $hero }}
+      <article class="featured-post">
+        <a href="{{ .RelPermalink }}" class="featured-media">
+          {{ .Scratch.Set "coverClass" "hero-cover" }}
+          {{ .Scratch.Set "coverLoading" "eager" }}
+          {{ partial "cover-image.html" . }}
+          {{ .Scratch.Delete "coverClass" }}
+          {{ .Scratch.Delete "coverLoading" }}
+        </a>
+        <div class="featured-copy">
+          <p class="eyebrow">Latest featured</p>
+          {{ partial "post-meta.html" . }}
+          <h2><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+          <p>{{ .Description | default .Summary | plainify | truncate 210 }}</p>
+        </div>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="shell content-grid">
+    <div class="section-heading">
+      <h2>Latest Writing</h2>
+      <a href="{{ "/posts/" | relURL }}">Archive</a>
+    </div>
+    <div class="post-grid">
+      {{ range first 6 $posts }}
+        {{ partial "post-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="shell archive-preview">
+    <div class="section-heading">
+      <h2>Archive</h2>
+      <a href="{{ "/tags/" | relURL }}">Browse tags</a>
+    </div>
+    {{ range first 4 ($posts.GroupByDate "2006") }}
+      <div class="year-group">
+        <h3>{{ .Key }}</h3>
+        <ol class="post-list">
+          {{ range .Pages }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+            </li>
+          {{ end }}
+        </ol>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

@@ -1,0 +1,36 @@
+{{ define "main" }}
+  {{ if eq .Section "posts" }}
+    <article class="article-shell">
+      <header class="article-header shell">
+        <p class="eyebrow">{{ with index .Params.categories 0 }}{{ . }}{{ else }}Post{{ end }}</p>
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ with .Params.subtitle }}<p class="deck">{{ . | markdownify }}</p>{{ end }}
+        {{ partial "post-meta.html" . }}
+        {{ partial "share-buttons.html" . }}
+        {{ .Scratch.Set "coverClass" "article-cover" }}
+        {{ .Scratch.Set "coverLoading" "eager" }}
+        {{ partial "cover-image.html" . }}
+        {{ .Scratch.Delete "coverClass" }}
+        {{ .Scratch.Delete "coverLoading" }}
+      </header>
+      <div class="article-layout shell">
+        {{ partial "toc.html" . }}
+        <div class="prose">
+          {{ .Content }}
+        </div>
+      </div>
+      {{ partial "related-posts.html" . }}
+    </article>
+  {{ else }}
+    <article class="shell page-layout">
+      <header class="page-header">
+        <p class="eyebrow">{{ .Type | humanize }}</p>
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ with .Params.subtitle }}<p class="deck">{{ . | markdownify }}</p>{{ end }}
+      </header>
+      <div class="prose page-prose">
+        {{ .Content }}
+      </div>
+    </article>
+  {{ end }}
+{{ end }}

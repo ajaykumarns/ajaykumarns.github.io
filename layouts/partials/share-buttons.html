@@ -1,0 +1,27 @@
+{{- $title := .Title | plainify -}}
+{{- $url := .Permalink -}}
+{{- if .Site.Params.socialShare -}}
+  <div class="share-panel" aria-label="Share this post">
+    <span>Share</span>
+    <div class="share-links">
+      {{ if .Site.Params.social.share.twitter }}
+        <a href="https://twitter.com/intent/tweet?text={{ $title | urlquery }}&url={{ $url | urlquery }}" target="_blank" rel="noopener noreferrer nofollow">Twitter</a>
+      {{ end }}
+      {{ if .Site.Params.social.share.linkedin }}
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url | urlquery }}&title={{ $title | urlquery }}" target="_blank" rel="noopener noreferrer nofollow">LinkedIn</a>
+      {{ end }}
+      {{ if .Site.Params.social.share.whatsapp }}
+        <a href="https://api.whatsapp.com/send?text={{ printf "%s %s" $title $url | urlquery }}" target="_blank" rel="noopener noreferrer nofollow">WhatsApp</a>
+      {{ end }}
+      {{ if .Site.Params.social.share.telegram }}
+        <a href="https://t.me/share/url?url={{ $url | urlquery }}&text={{ $title | urlquery }}" target="_blank" rel="noopener noreferrer nofollow">Telegram</a>
+      {{ end }}
+      {{ if .Site.Params.social.share.reddit }}
+        <a href="https://www.reddit.com/submit?url={{ $url | urlquery }}&title={{ $title | urlquery }}" target="_blank" rel="noopener noreferrer nofollow">Reddit</a>
+      {{ end }}
+      {{ if .Site.Params.social.share.email }}
+        <a href="mailto:?subject={{ $title | urlquery }}&body={{ $url | urlquery }}">Email</a>
+      {{ end }}
+    </div>
+  </div>
+{{- end -}}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <section class="shell page-header">
+    <p class="eyebrow">Browse</p>
+    <h1>{{ .Title | markdownify }}</h1>
+  </section>
+  <section class="shell term-cloud">
+    {{ range .Data.Terms.Alphabetical }}
+      <a href="{{ .Page.RelPermalink }}">
+        <span>{{ .Page.Title }}</span>
+        <small>{{ .Count }}</small>
+      </a>
+    {{ end }}
+  </section>
+{{ end }}

@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <section class="shell page-header">
+    <p class="eyebrow">Archive</p>
+    <h1>{{ .Title | default "Posts" }}</h1>
+    {{ with .Content }}<div class="page-copy">{{ . }}</div>{{ end }}
+  </section>
+  <section class="shell archive-page">
+    {{ range ((where .Pages "Params.hiddenFromHomePage" "!=" true).GroupByDate "2006") }}
+      <div class="year-group">
+        <h2>{{ .Key }}</h2>
+        <ol class="post-list post-list-large">
+          {{ range .Pages.ByDate.Reverse }}
+            <li>
+              <div>
+                <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+                <p>{{ .Description | default .Summary | plainify | truncate 150 }}</p>
+              </div>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+            </li>
+          {{ end }}
+        </ol>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

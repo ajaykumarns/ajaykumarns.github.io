@@ -1,6 +1,6 @@
 baseURL = "https://nadathurx.com/"
 languageName = "En"
-languageCode = "en-us"
+locale = "en-us"
 #relativeURLs = "True"
 title = "NadathurX"
 theme = "arberia"
@@ -105,14 +105,24 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 10
 
 [[menu.main]]
+name = "Bookshelf"
+url = "/bookshelf/"
+weight = 20
+
+[[menu.main]]
 name = "About"
 url = "/about/"
-weight = 2
+weight = 30
 
 
 # Footer Navigation
@@ -127,6 +137,11 @@ url = "/about/"
 weight = 2
 
 [[menu.footer]]
+name = "Bookshelf"
+url = "/bookshelf/"
+weight = 3
+
+[[menu.footer]]
 name = "Privacy Policy"
 url = "/privacy/"
-weight = 3
+weight = 4

@@ -1,0 +1,38 @@
+{{- $current := . -}}
+{{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $related := slice -}}
+{{- range $posts -}}
+  {{- if ne .RelPermalink $current.RelPermalink -}}
+    {{- $tagMatch := false -}}
+    {{- $categoryMatch := false -}}
+    {{- range .Params.tags -}}
+      {{- if in ($current.Params.tags | default slice) . -}}{{- $tagMatch = true -}}{{- end -}}
+    {{- end -}}
+    {{- range .Params.categories -}}
+      {{- if in ($current.Params.categories | default slice) . -}}{{- $categoryMatch = true -}}{{- end -}}
+    {{- end -}}
+    {{- if or $tagMatch $categoryMatch -}}
+      {{- $related = $related | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq (len $related) 0 -}}
+  {{- $related = first 3 (where $posts "RelPermalink" "!=" $current.RelPermalink).ByDate.Reverse -}}
+{{- end -}}
+{{- with first 3 ($related.ByDate.Reverse | default $related) -}}
+  <section class="related-posts shell" aria-labelledby="related-posts-title">
+    <div class="section-heading">
+      <h2 id="related-posts-title">Related Posts</h2>
+      <a href="{{ "/posts/" | relURL }}">All posts</a>
+    </div>
+    <div class="related-grid">
+      {{ range . }}
+        <article class="related-card">
+          {{ partial "post-meta.html" . }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+          <p>{{ .Description | default .Summary | plainify | truncate 130 }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{- end -}}

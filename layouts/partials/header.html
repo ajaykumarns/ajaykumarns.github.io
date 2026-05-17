@@ -1,0 +1,16 @@
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell header-inner">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }} home">
+      {{ with .Site.Params.logo }}
+        <img src="{{ . | relURL }}" alt="" width="38" height="38">
+      {{ end }}
+      <span>{{ .Site.Title }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {{ range .Site.Menus.main.ByWeight }}
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

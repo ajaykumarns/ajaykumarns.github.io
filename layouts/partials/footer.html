@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <p>{{ .Site.Copyright | markdownify }}</p>
+    <nav aria-label="Footer navigation">
+      {{ range .Site.Menus.footer.ByWeight }}
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+      {{ with .Site.Params.social.github }}<a href="{{ . }}">GitHub</a>{{ end }}
+      {{ with .Site.Params.social.linkedin }}<a href="{{ . }}">LinkedIn</a>{{ end }}
+      {{ with .Site.Params.social.twitter }}<a href="{{ . }}">Twitter</a>{{ end }}
+    </nav>
+  </div>
+</footer>

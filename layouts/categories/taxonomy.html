@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="shell page-header">
+    <p class="eyebrow">Category</p>
+    <h1>{{ .Title | markdownify }}</h1>
+  </section>
+  <section class="shell archive-page">
+    <ol class="post-list post-list-large">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <div>
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            <p>{{ .Description | default .Summary | plainify | truncate 150 }}</p>
+          </div>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </li>
+      {{ end }}
+    </ol>
+  </section>
+{{ end }}
