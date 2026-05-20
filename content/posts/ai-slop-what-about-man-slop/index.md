@@ -4,8 +4,8 @@ subtitle: "Sloppy code was never just an AI problem"
 tags: [AI, LLM, Development, Software Engineering, Code Quality]
 categories: [blog, tech]
 date: 2026-05-20T14:05:00+05:30
-lastmod: 2026-05-21T00:39:54+05:30
-draft: true
+lastmod: 2026-05-21T01:29:00+05:30
+draft: false
 type: standard-view
 weight: 1
 
