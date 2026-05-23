@@ -4,10 +4,12 @@ subtitle: "Sloppy code was never just an AI problem"
 tags: [AI, LLM, Development, Software Engineering, Code Quality]
 categories: [blog, tech]
 date: 2026-05-20T14:05:00+05:30
-lastmod: 2026-05-21T01:29:00+05:30
+lastmod: 2026-05-24T01:18:00+05:30
 draft: false
 type: standard-view
 weight: 1
+aliases:
+  - /ai-slop-what-about-man-slop/
 
 featured: true
 sidebar: true
@@ -125,4 +127,6 @@ If the repository accepts a sloppy change, the process failed. The author being 
 
 **The cure for both is not nostalgia; it is standards, guardrails, and enforcement.** Without those, slop will grow whether it's written by humans or AI.
 
-I will go deeper into practical guardrails in a follow-up post. Until then, may your CI be stricter than your optimism.
+I go deeper into that in [Guardrails Against AI and Human Slop](/guardrails-against-ai-slop/), where the question becomes less philosophical and more practical: how do we make the repo push back before bad habits become committed code?
+
+Until then, may your CI be stricter than your optimism.

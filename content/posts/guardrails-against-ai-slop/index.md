@@ -4,7 +4,7 @@ subtitle: "Make the repo push back before review"
 tags: [AI, LLM, Development, Productivity, Software Engineering]
 categories: [blog, tech]
 date: 2026-05-23T21:12:00+05:30
-lastmod: 2026-05-23T21:12:00+05:30
+lastmod: 2026-05-24T01:18:00+05:30
 draft: false
 type: standard-view
 url: /guardrails-against-ai-slop/
@@ -30,7 +30,7 @@ resources:
 
 ## Slop was already here
 
-In the [previous article](/ai-slop-what-about-man-slop/), I argued that sloppy code is not new. Humans were already quite talented at writing it, and we are even more creative when explaining it away.
+In the [previous article](/ai-slop-what-about-human-slop/), I argued that sloppy code is not new. Humans were already quite talented at writing it, and we are even more creative when explaining it away.
 
 It may sometimes feel like LLMs are not good enough at coding yet, but they are also trained on the code we wrote, including all our bad habits. They will get better over time, but that is not the thing to wait for.
 
@@ -208,7 +208,7 @@ Happy coding!
 
 ## References
 
-- [AI slop? What about human slop?](/ai-slop-what-about-man-slop/)
+- [AI slop? What about human slop?](/ai-slop-what-about-human-slop/)
 - [OpenHands webinar: AI code quality and maintainability](https://www.youtube.com/watch?v=y60vYnBAvBI&t=2820s)
 - [OpenAI Agents SDK guardrails](https://openai.github.io/openai-agents-python/guardrails/)
 - [Amazon Bedrock Guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html)
