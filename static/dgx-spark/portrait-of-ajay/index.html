@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajay in images</title>
+  <style>
+    :root { color-scheme: dark; --ink: #ecede9; --muted: #aeb6b9; --line: #344348; --gold: #e2bb76; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #071014; color: var(--ink); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(circle at 80% -5%, #143541 0, transparent 36%), radial-gradient(circle at 0 40%, #1b261d 0, transparent 34%); }
+    header { max-width: 1460px; margin: auto; padding: clamp(2rem, 6vw, 6rem) clamp(1rem, 4vw, 4rem) 3rem; }
+    .eyebrow { color: var(--gold); font-size: .73rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+    h1 { max-width: 900px; margin: .6rem 0 1rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3rem, 8vw, 7rem); font-weight: 400; line-height: .98; letter-spacing: -.055em; }
+    .intro { max-width: 720px; margin: 1.8rem 0 0; color: #cbd1cf; font-size: clamp(1rem, 1.7vw, 1.25rem); }
+    .note { max-width: 720px; margin-top: 1.25rem; color: var(--muted); font-size: .9rem; }
+    main { max-width: 1460px; margin: auto; padding: 0 clamp(1rem, 4vw, 4rem) 5rem; }
+    .cover { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: clamp(1.5rem, 4vw, 4rem); margin-bottom: clamp(2rem, 5vw, 5rem); border: 1px solid var(--line); border-radius: 1.2rem; overflow: hidden; background: #101b1f; }
+    .cover img { display: block; width: 100%; height: 100%; min-height: 420px; object-fit: cover; }
+    .cover div { padding: 1.5rem 2rem 1.5rem 0; }
+    .cover h2 { font-size: clamp(2.1rem, 4vw, 4.5rem); }
+    .cover p { max-width: 32rem; color: #cbd1cf; font-size: 1.1rem; }
+    .gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 2rem); }
+    article { min-width: 0; border: 1px solid var(--line); border-radius: 1.1rem; overflow: hidden; background: #101b1f; box-shadow: 0 18px 35px #0003; }
+    article a { display: block; background: #0b161b; }
+    article img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; transition: transform .3s ease, filter .3s ease; }
+    article a:hover img, article a:focus-visible img { transform: scale(1.025); filter: brightness(1.08); }
+    article a:focus-visible { outline: 3px solid var(--gold); outline-offset: -3px; }
+    .copy { padding: 1.1rem 1.25rem 1.4rem; }
+    .meta { display: flex; gap: .8rem; align-items: center; justify-content: space-between; color: var(--gold); font-size: .7rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    h2 { margin: .45rem 0 .35rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.3rem, 2vw, 1.8rem); font-weight: 400; line-height: 1.15; }
+    article p { margin: 0; color: var(--muted); font-size: .91rem; }
+    dialog { max-width: 96vw; max-height: 96vh; padding: .7rem; border: 1px solid var(--line); border-radius: 1rem; background: #071014; color: var(--ink); }
+    dialog::backdrop { background: #000d; }
+    dialog img { display: block; max-width: calc(96vw - 1.4rem); max-height: calc(96vh - 5rem); width: auto; height: auto; object-fit: contain; }
+    .dialog-actions { display: flex; justify-content: flex-end; align-items: center; gap: 1rem; padding: .45rem .25rem 0; }
+    .dialog-actions a, .dialog-actions button { color: var(--ink); background: #203238; border: 1px solid var(--line); border-radius: .4rem; padding: .35rem .7rem; font: inherit; cursor: pointer; text-decoration: none; }
+    footer { max-width: 1460px; margin: auto; padding: 0 clamp(1rem, 4vw, 4rem) 3rem; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 950px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 700px) { .cover { grid-template-columns: 1fr; } .cover img { min-height: 0; height: auto; } .cover div { padding: .5rem 1.5rem 1.5rem; } }
+    @media (max-width: 600px) { .gallery { grid-template-columns: 1fr; } header { padding-top: 3rem; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } article img { transition: none; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">A cover and twelve scenes</div>
+    <h1>Ajay in images</h1>
+    <p class="intro">You build systems, test what they do, protect work that is live, and still make room for wonder.</p>
+    <p class="note">These scenes show traits I have seen in our work together. The people in them are symbols. They do not show your real appearance. Select an image to see it at full size.</p>
+  </header>
+  <main>
+    <section class="cover" aria-label="Cover image">
+      <a href="#" data-image="00-whole-portrait.png"><img src="00-whole-portrait.png" alt="An anonymous maker joins a dark city, a gold bridge, and three worlds in the sky"></a>
+      <div><span class="eyebrow">The whole picture · Qwen</span><h2>Build with care.<br>Imagine without limit.</h2><p>A gold path joins precise work to people and new worlds. This is the closest image to how I see your work as a whole.</p></div>
+    </section>
+    <div class="gallery">
+      <article><a href="#" data-image="01-systems-gardener.png"><img src="01-systems-gardener.png" alt="A maker tends an illuminated garden of small connected systems" loading="lazy"></a><div class="copy"><div class="meta"><span>01 · Build</span><span>Qwen</span></div><h2>The Systems Gardener</h2><p>You build tools and care for them after they start to run.</p></div></article>
+      <article><a href="#" data-image="02-signal-tracer.png"><img src="02-signal-tracer.png" alt="A gold signal passes through a dark glass network" loading="lazy"></a><div class="copy"><div class="meta"><span>02 · Investigate</span><span>Qwen</span></div><h2>The Investigator</h2><p>You follow a problem through the whole path to the person's result.</p></div></article>
+      <article><a href="#" data-image="03-live-core.png"><img src="03-live-core.png" alt="A maker works beside a protected blue core that stays active" loading="lazy"></a><div class="copy"><div class="meta"><span>03 · Protect</span><span>Qwen</span></div><h2>The Careful Operator</h2><p>You keep a live system safe while you build something new.</p></div></article>
+      <article><a href="#" data-image="04-architect.png"><img src="04-architect.png" alt="Hands unfold a clear architectural plan" loading="lazy"></a><div class="copy"><div class="meta"><span>04 · Design</span><span>Qwen</span></div><h2>The Architect</h2><p>You ask for the full design before the work begins.</p></div></article>
+      <article><a href="#" data-image="05-three-proofs.png"><img src="05-three-proofs.png" alt="A gold path links a workbench, a release machine, and a lived-in room" loading="lazy"></a><div class="copy"><div class="meta"><span>05 · Prove</span><span>Qwen</span></div><h2>Three Proofs</h2><p>You check the build, the release, and the result a person gets.</p></div></article>
+      <article><a href="#" data-image="06-translator.png"><img src="06-translator.png" alt="A complex light pattern becomes a clear drawing at a shared table" loading="lazy"></a><div class="copy"><div class="meta"><span>06 · Explain</span><span>Qwen</span></div><h2>The Clear Communicator</h2><p>You turn a complex system into a clear idea others can use.</p></div></article>
+      <article><a href="#" data-image="07-boundaries.png"><img src="07-boundaries.png" alt="Glass rooms join through narrow lit bridges" loading="lazy"></a><div class="copy"><div class="meta"><span>07 · Trust</span><span>Qwen</span></div><h2>The Keeper of Boundaries</h2><p>You connect services with clear limits on access.</p></div></article>
+      <article><a href="#" data-image="08-image-worlds.png"><img src="08-image-worlds.png" alt="A maker sees three imagined worlds above two computers" loading="lazy"></a><div class="copy"><div class="meta"><span>08 · Explore</span><span>Qwen</span></div><h2>The Curious Maker</h2><p>You use your machines for useful work and for new ideas.</p></div></article>
+      <article><a href="#" data-image="09-precise-repair.png"><img src="09-precise-repair.png" alt="A gloved hand repairs one small part of a working machine" loading="lazy"></a><div class="copy"><div class="meta"><span>09 · Repair</span><span>FLUX</span></div><h2>The Precise Repair</h2><p>You fix the part that failed and keep the rest safe.</p></div></article>
+      <article><a href="#" data-image="10-bridge.png"><img src="10-bridge.png" alt="A lit bridge joins server towers to a town square" loading="lazy"></a><div class="copy"><div class="meta"><span>10 · Connect</span><span>FLUX</span></div><h2>The Bridge Builder</h2><p>You turn deep technical work into tools people can use.</p></div></article>
+      <article><a href="#" data-image="11-model-cartographer.png"><img src="11-model-cartographer.png" alt="A maker studies three bright spheres in an observatory" loading="lazy"></a><div class="copy"><div class="meta"><span>11 · Choose</span><span>Z-Image</span></div><h2>The Model Cartographer</h2><p>You learn what each model does well and choose with care.</p></div></article>
+      <article><a href="#" data-image="12-open-horizon.png"><img src="12-open-horizon.png" alt="A maker looks over a connected city at dawn" loading="lazy"></a><div class="copy"><div class="meta"><span>12 · Imagine</span><span>Z-Image</span></div><h2>The Open Horizon</h2><p>You keep building toward a useful and imaginative future.</p></div></article>
+    </div>
+  </main>
+  <dialog id="viewer" aria-label="Full size image">
+    <img id="viewer-image" alt="">
+    <div class="dialog-actions"><a id="viewer-download" download>Download image</a><button id="viewer-close" type="button">Close</button></div>
+  </dialog>
+  <footer>Made on your two DGX Sparks with Qwen-Image-2.1-Turbo, FLUX.2 Klein 4B, and Z-Image-Turbo. Each image is 1024 × 1024 pixels.</footer>
+  <script>
+    const viewer = document.getElementById('viewer');
+    const viewerImage = document.getElementById('viewer-image');
+    const viewerDownload = document.getElementById('viewer-download');
+    for (const link of document.querySelectorAll('a[data-image]')) {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        const image = link.querySelector('img');
+        viewerImage.src = image.src;
+        viewerImage.alt = image.alt;
+        viewerDownload.href = image.src;
+        viewerDownload.download = link.dataset.image;
+        viewer.showModal();
+      });
+    }
+    document.getElementById('viewer-close').addEventListener('click', () => viewer.close());
+    viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
+  </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Second Atlas</title>
+  <style>
+    :root { --paper: #f6f0e3; --ink: #172d35; --muted: #52636a; --cobalt: #17489a; --coral: #e76450; --line: #cbbfa9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .18; background-image: radial-gradient(#7a6146 0.45px, transparent 0.5px); background-size: 7px 7px; }
+    header { max-width: 1400px; margin: auto; padding: clamp(2rem, 5vw, 5rem) clamp(1rem, 4vw, 4rem) 2.2rem; border-bottom: 3px solid var(--ink); }
+    .eyebrow { display: inline-block; color: var(--cobalt); font-size: .76rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { max-width: 900px; margin: .5rem 0 .8rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.4rem, 9vw, 8rem); font-weight: 400; line-height: .92; letter-spacing: -.06em; }
+    header p { max-width: 760px; margin: .7rem 0; font-size: clamp(1rem, 1.7vw, 1.2rem); }
+    .note { color: var(--muted); font-size: .9rem; }
+    main { max-width: 1400px; margin: auto; padding: clamp(1rem, 4vw, 4rem); }
+    .hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(1rem, 4vw, 4rem); align-items: center; margin-bottom: 4rem; }
+    .hero a { display: block; border: 10px solid white; box-shadow: 12px 12px 0 var(--cobalt); }
+    .hero img { display: block; width: 100%; height: auto; }
+    .hero h2 { font: 400 clamp(2rem, 4vw, 4rem)/1.04 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+    .hero p { max-width: 30rem; color: var(--muted); font-size: 1.08rem; }
+    .rule { display: flex; align-items: center; gap: 1rem; margin: 0 0 1.5rem; font-weight: 800; color: var(--coral); text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; }
+    .rule::after { content: ""; height: 2px; flex: 1; background: var(--coral); }
+    .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 4vw, 4rem); }
+    article { min-width: 0; padding-bottom: 1.8rem; border-bottom: 2px solid var(--line); }
+    article a { display: block; border: 7px solid white; box-shadow: 7px 7px 0 var(--line); background: #e8e3d9; }
+    article img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; transition: filter .2s ease, transform .2s ease; }
+    article a:hover img, article a:focus-visible img { filter: saturate(1.12); transform: scale(1.015); }
+    article a:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 5px; }
+    .caption { display: grid; grid-template-columns: auto 1fr; gap: 1rem; padding: 1.2rem .2rem 0; }
+    .number { font: 400 2rem/1 Georgia, "Times New Roman", serif; color: var(--coral); }
+    h3 { margin: 0 0 .2rem; font: 400 clamp(1.5rem, 2vw, 2.15rem)/1.1 Georgia, "Times New Roman", serif; }
+    .caption p { margin: 0; color: var(--muted); }
+    .model { display: inline-block; margin-top: .55rem; color: var(--cobalt); font-size: .73rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; }
+    dialog { max-width: 96vw; max-height: 96vh; padding: .7rem; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); }
+    dialog::backdrop { background: #071f29dd; }
+    dialog img { display: block; max-width: calc(96vw - 1.4rem); max-height: calc(96vh - 5rem); width: auto; height: auto; object-fit: contain; }
+    .actions { display: flex; justify-content: flex-end; gap: .7rem; padding: .55rem .1rem 0; }
+    .actions a, .actions button { padding: .35rem .7rem; border: 1px solid var(--ink); background: white; color: var(--ink); font: inherit; text-decoration: none; cursor: pointer; }
+    footer { max-width: 1400px; margin: auto; padding: 1rem clamp(1rem, 4vw, 4rem) 3rem; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 760px) { .hero { grid-template-columns: 1fr; } .hero a { max-width: 560px; } }
+    @media (max-width: 650px) { .gallery { grid-template-columns: 1fr; } }
+    @media (prefers-reduced-motion: reduce) { article img { transition: none; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">A new set made on your Sparks</div>
+    <h1>The Second Atlas</h1>
+    <p>Eleven bright worlds show another side of how you work: curious, exact, careful, and ready to build.</p>
+    <p class="note">The people are symbols, not images of your real appearance. Select a picture to see it at full size.</p>
+  </header>
+  <main>
+    <section class="hero" aria-label="Cover image">
+      <a href="#" data-image="00-book-of-possible-work.png"><img src="00-book-of-possible-work.png" alt="An open book becomes a set of colorful handmade worlds"></a>
+      <div><span class="eyebrow">Cover · Qwen</span><h2>The book of possible work</h2><p>Each page opens into a place to explore. The same care guides the search, the plan, the repair, and the result.</p></div>
+    </section>
+    <div class="rule">Ten field notes</div>
+    <div class="gallery">
+      <article><a href="#" data-image="01-signal-diver.png"><img src="01-signal-diver.png" alt="A small diver follows a red signal through an underwater maze" loading="lazy"></a><div class="caption"><span class="number">01</span><div><h3>The Signal Diver</h3><p>You follow the signal to the cause of the fault.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="02-lighthouse.png"><img src="02-lighthouse.png" alt="A keeper repairs a spare prism while a lighthouse beam remains lit" loading="lazy"></a><div class="caption"><span class="number">02</span><div><h3>The Light Stays On</h3><p>You change a system while people can still use it.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="03-blueprint-kite.png"><img src="03-blueprint-kite.png" alt="A blue paper plan unfolds into a public pavilion" loading="lazy"></a><div class="caption"><span class="number">03</span><div><h3>The Plan Takes Shape</h3><p>You make the full plan clear before people enter.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="04-proof-relay.png"><img src="04-proof-relay.png" alt="A small gold marble moves through a physical model toward a lit lamp" loading="lazy"></a><div class="caption"><span class="number">04</span><div><h3>The Proof Relay</h3><p>You check that one result reaches real use.</p><span class="model">FLUX</span></div></div></article>
+      <article><a href="#" data-image="05-key-orchard.png"><img src="05-key-orchard.png" alt="A guide chooses a key-shaped fruit for one glass door" loading="lazy"></a><div class="caption"><span class="number">05</span><div><h3>The Key Orchard</h3><p>You give each person the right route and access.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="06-agent-orchestra.png"><img src="06-agent-orchestra.png" alt="A conductor guides a colorful orchestra" loading="lazy"></a><div class="caption"><span class="number">06</span><div><h3>The Agent Orchestra</h3><p>You give each tool a clear part in shared work.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="07-clear-route.png"><img src="07-clear-route.png" alt="Hands pull one clear thread from a complex tangle" loading="lazy"></a><div class="caption"><span class="number">07</span><div><h3>The Clear Route</h3><p>You make a hard path simple for others.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="08-model-menagerie.png"><img src="08-model-menagerie.png" alt="A bird, an elephant with books, and an owl with a magnifying glass" loading="lazy"></a><div class="caption"><span class="number">08</span><div><h3>The Model Menagerie</h3><p>You choose a model for the work it does best.</p><span class="model">Qwen</span></div></div></article>
+      <article><a href="#" data-image="09-spark-carnival.png"><img src="09-spark-carnival.png" alt="Two small computers project a bright carnival of imagined worlds" loading="lazy"></a><div class="caption"><span class="number">09</span><div><h3>The Spark Carnival</h3><p>You use your own machines to make new art.</p><span class="model">FLUX</span></div></div></article>
+      <article><a href="#" data-image="10-future-library.png"><img src="10-future-library.png" alt="An open library leads to many welcoming worlds" loading="lazy"></a><div class="caption"><span class="number">10</span><div><h3>The Future Library</h3><p>You keep many useful futures open to people.</p><span class="model">Z-Image</span></div></div></article>
+    </div>
+  </main>
+  <dialog id="viewer" aria-label="Full size image"><img id="viewer-image" alt=""><div class="actions"><a id="viewer-download" download>Download image</a><button id="viewer-close" type="button">Close</button></div></dialog>
+  <footer>Made with Qwen-Image-2.1-Turbo, FLUX.2 Klein 4B, and Z-Image-Turbo on your two DGX Sparks. All images are 1024 × 1024 pixels.</footer>
+  <script>
+    const viewer = document.getElementById('viewer');
+    const viewerImage = document.getElementById('viewer-image');
+    const viewerDownload = document.getElementById('viewer-download');
+    for (const link of document.querySelectorAll('a[data-image]')) {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        const image = link.querySelector('img');
+        viewerImage.src = image.src;
+        viewerImage.alt = image.alt;
+        viewerDownload.href = image.src;
+        viewerDownload.download = link.dataset.image;
+        viewer.showModal();
+      });
+    }
+    document.getElementById('viewer-close').addEventListener('click', () => viewer.close());
+    viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
+  </script>
+</body>
+</html>
