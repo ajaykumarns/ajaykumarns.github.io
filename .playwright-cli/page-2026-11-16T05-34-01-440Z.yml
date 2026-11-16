@@ -244,17 +244,11 @@
     - generic [ref=e188]:
       - paragraph [ref=e189]: ©NadathurX.com, 2024. Unauthorized use of this material without permission is strictly prohibited.
       - navigation "Footer navigation" [ref=e190]:
-        - link "Home" [ref=e191] [cursor=pointer]:
-          - /url: /
-        - link "About" [ref=e192] [cursor=pointer]:
-          - /url: /about/
-        - link "Bookshelf" [ref=e193] [cursor=pointer]:
-          - /url: /bookshelf/
-        - link "Privacy Policy" [ref=e194] [cursor=pointer]:
+        - link "Privacy Policy" [ref=e191] [cursor=pointer]:
           - /url: /privacy/
-        - link "GitHub" [ref=e195] [cursor=pointer]:
+        - link "GitHub" [ref=e192] [cursor=pointer]:
           - /url: https://github.com/ajaykumarns
-        - link "LinkedIn" [ref=e196] [cursor=pointer]:
+        - link "LinkedIn" [ref=e193] [cursor=pointer]:
           - /url: https://www.linkedin.com/in/nadathur/
-        - link "Twitter" [ref=e197] [cursor=pointer]:
+        - link "Twitter" [ref=e194] [cursor=pointer]:
           - /url: https://twitter.com/ajaykumarns
