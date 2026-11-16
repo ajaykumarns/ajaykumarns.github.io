@@ -4,7 +4,7 @@ locale = "en-us"
 #relativeURLs = "True"
 title = "NadathurX"
 theme = "arberia"
-copyright = "©NadathurX.com, 2024. Unauthorized use of this material without permission is strictly prohibited."
+copyright = "©NadathurX.com, %year%. Unauthorized use of this material without permission is strictly prohibited."
 enableGitInfo = false
 summaryLength = 30
 

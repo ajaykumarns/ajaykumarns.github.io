@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="shell footer-inner">
-    <p>{{ .Site.Copyright | markdownify }}</p>
+    <p>{{ .Site.Copyright | replaceRE "%year%" (now.Format "2006") | markdownify }}</p>
     <nav aria-label="Footer navigation">
       {{ range .Site.Menus.footer.ByWeight }}
         <a href="{{ .URL | relURL }}">{{ .Name }}</a>

@@ -2,16 +2,15 @@
 title: "About Me"
 subtitle: "Let me speak about me"
 date: 2025-02-15
-lastmod: 2022-04-26T21:28:23+02:00
+lastmod: 2025-02-15
 draft: false
 type: "about"
 
 author: Ajay Nadathur
 avatar: me.jpg
 twitter: "https://twitter.com/ajaykumarns"
-github: "https://github.com/antedoro"
-linkedin: "https://www.linkedin.com/in/antedoro/"
-instagram: "https://www.instagram.com/antedoro/"
+github: "https://github.com/ajaykumarns"
+linkedin: "https://www.linkedin.com/in/nadathur/"
 
 resources:
 - name: featured-image
