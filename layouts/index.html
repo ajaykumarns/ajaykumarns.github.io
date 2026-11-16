@@ -13,11 +13,7 @@
     {{ with $hero }}
       <article class="featured-post">
         <a href="{{ .RelPermalink }}" class="featured-media">
-          {{ .Scratch.Set "coverClass" "hero-cover" }}
-          {{ .Scratch.Set "coverLoading" "eager" }}
-          {{ partial "cover-image.html" . }}
-          {{ .Scratch.Delete "coverClass" }}
-          {{ .Scratch.Delete "coverLoading" }}
+          {{ partial "cover-image.html" (dict "page" . "coverClass" "hero-cover" "loading" "eager") }}
         </a>
         <div class="featured-copy">
           <p class="eyebrow">Latest featured</p>

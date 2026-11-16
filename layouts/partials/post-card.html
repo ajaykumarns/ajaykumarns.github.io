@@ -1,10 +1,6 @@
 <article class="post-card">
   <a class="post-card-media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
-    {{ .Scratch.Set "coverClass" "card-cover" }}
-    {{ .Scratch.Set "coverLoading" "lazy" }}
-    {{ partial "cover-image.html" . }}
-    {{ .Scratch.Delete "coverClass" }}
-    {{ .Scratch.Delete "coverLoading" }}
+    {{ partial "cover-image.html" (dict "page" . "coverClass" "card-cover" "loading" "lazy") }}
   </a>
   <div class="post-card-body">
     {{ partial "post-meta.html" . }}

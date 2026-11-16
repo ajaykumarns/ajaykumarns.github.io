@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e4]:
+      - link "NadathurX home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: NadathurX
+      - navigation "Main navigation" [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Posts" [ref=e9] [cursor=pointer]:
+          - /url: /posts/
+        - link "Tags" [ref=e10] [cursor=pointer]:
+          - /url: /tags
+        - link "Bookshelf" [ref=e11] [cursor=pointer]:
+          - /url: /bookshelf/
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e13]:
+    - article [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: blog
+        - heading "I can haz private intelligence?" [level=1] [ref=e17]
+        - paragraph [ref=e18]: Me gets them runnings, then aks them to draws my work in pictures
+        - generic [ref=e19]:
+          - time [ref=e20]: October 25, 2026
+          - generic [ref=e21]: /6 min read
+          - generic [ref=e22]:
+            - link "DGX Spark" [ref=e23] [cursor=pointer]:
+              - /url: /tags/dgx-spark/
+            - link "Local AI" [ref=e24] [cursor=pointer]:
+              - /url: /tags/local-ai/
+            - link "Image Generation" [ref=e25] [cursor=pointer]:
+              - /url: /tags/image-generation/
+        - generic "Share this post" [ref=e26]:
+          - generic [ref=e27]: Share
+          - generic [ref=e28]:
+            - link "Twitter" [ref=e29] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=I+can+haz+private+intelligence%3F&url=http%3A%2F%2Flocalhost%3A1313%2Fi-can-haz-private-intelligence%2F
+            - link "LinkedIn" [ref=e30] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A1313%2Fi-can-haz-private-intelligence%2F&title=I+can+haz+private+intelligence%3F
+            - link "WhatsApp" [ref=e31] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?text=I+can+haz+private+intelligence%3F+http%3A%2F%2Flocalhost%3A1313%2Fi-can-haz-private-intelligence%2F
+            - link "Telegram" [ref=e32] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A1313%2Fi-can-haz-private-intelligence%2F&text=I+can+haz+private+intelligence%3F
+            - link "Reddit" [ref=e33] [cursor=pointer]:
+              - /url: https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A1313%2Fi-can-haz-private-intelligence%2F&title=I+can+haz+private+intelligence%3F
+        - figure [ref=e34]:
+          - img "I can haz private intelligence?" [ref=e35]
+      - generic [ref=e36]:
+        - complementary "Table of contents" [ref=e37]:
+          - paragraph [ref=e38]: Contents
+          - navigation [ref=e39]:
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link "The good old days" [ref=e42] [cursor=pointer]:
+                  - /url: "#the-good-old-days"
+              - listitem [ref=e43]:
+                - link "The dark side of public inference" [ref=e44] [cursor=pointer]:
+                  - /url: "#the-dark-side-of-public-inference"
+              - listitem [ref=e45]:
+                - link "The machine I was waiting for" [ref=e46] [cursor=pointer]:
+                  - /url: "#the-machine-i-was-waiting-for"
+              - listitem [ref=e47]:
+                - link "The joy of owning intelligence" [ref=e48] [cursor=pointer]:
+                  - /url: "#the-joy-of-owning-intelligence"
+                - list [ref=e49]:
+                  - listitem [ref=e50]:
+                    - link "Enter ComfyUI" [ref=e51] [cursor=pointer]:
+                      - /url: "#enter-comfyui"
+              - listitem [ref=e52]:
+                - link "Naturally, I asked for another set" [ref=e53] [cursor=pointer]:
+                  - /url: "#naturally-i-asked-for-another-set"
+              - listitem [ref=e54]:
+                - link "For now" [ref=e55] [cursor=pointer]:
+                  - /url: "#for-now"
+              - listitem [ref=e56]:
+                - link "References" [ref=e57] [cursor=pointer]:
+                  - /url: "#references"
+        - generic [ref=e58]:
+          - heading "The good old days" [level=2] [ref=e59]
+          - paragraph [ref=e60]:
+            - text: Who remembers the good old days when
+            - link "I can has cheeseburger" [ref=e61] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/I_Can_Has_Cheezburger%3F
+            - text: "was all rage? I spent so many of my waking hours going through all the funny memes the internet had to offer. The world has changed so much since then — now you can generate your own images of cats, cities, and whatever one can imagine, just by describing it to a machine. And we are spoiled for choice: head to"
+            - link "openrouter.ai" [ref=e62] [cursor=pointer]:
+              - /url: https://openrouter.ai
+            - text: or any other service provider, try new models pay-per-usage, and pick from plenty of image and video tools on tap, including
+            - link "gpt-image" [ref=e63] [cursor=pointer]:
+              - /url: https://openai.com/index/introducing-4o-image-generation/
+            - text: ","
+            - link "Google Nano Banana" [ref=e64] [cursor=pointer]:
+              - /url: https://developers.googleblog.com/introducing-gemini-2-5-flash-image
+            - text: and much, much more.
+          - heading "The dark side of public inference" [level=2] [ref=e65]
+          - paragraph [ref=e66]:
+            - text: "However, the main problem with all of these services is that any data you send to them is no longer private, in spite of whatever assurances they give. Take what happened at Cloudflare recently:"
+            - link "a bug in the KV cache on their Workers AI stack leaked data across user sessions" [ref=e67] [cursor=pointer]:
+              - /url: https://blog.cloudflare.com/kv-cache-exposure-remediation
+              - strong [ref=e68]: a bug in the KV cache on their Workers AI stack leaked data across user sessions
+            - text: — 155 responses containing pieces of other customers’ sessions, over a couple of weeks in late August and early September, and no sophisticated hacker involved, just an engineering mistake! Imagine uploading your financial statements to a hosted model and a stranger’s session getting served your private financial details.
+          - paragraph [ref=e69]:
+            - text: Or take the
+            - link "Cursor incident" [ref=e70] [cursor=pointer]:
+              - /url: https://cursor.com/blog/security-incident-update
+            - text: from October 2026 — an attacker got into a bucket of coding agent traces through an access key leaked by its inference vendor, stole credentials from it, and from there pushed a trojanized Claude Code extension into Cursor’s VS Code marketplace for about 11 hours, reaching at most 5,000 users. Prompts, support data, and customer details were all in the mix.
+          - paragraph [ref=e71]:
+            - text: And it isn’t just the hosted services either — it’s also what AI-generated apps ship with.
+            - link "Crissy Field analyzed 159,041 Lovable projects" [ref=e72] [cursor=pointer]:
+              - /url: https://www.crissyfield.de/research/lovable-en/
+            - text: and found 24,664 sending database records to the browser with no login required; 30% of those they inspected had tables full of email addresses. Some exposed passport numbers and payment details, others 200,000 chat messages. The pitch is “describe the app, we’ll build it” — the fine print is that somebody still has to check who can read the database afterwards. How much control do you really have once your data is inside someone else’s pipeline?
+          - paragraph [ref=e73]:
+            - text: Not much, if any — which is exactly why I’ve always hesitated to upload any sort of private information such as credit card bills or personal images, even for something harmless like a trend. Like ChatGPT’s viral
+            - link "Ghibli effect" [ref=e74] [cursor=pointer]:
+              - /url: https://www.reuters.com/technology/artificial-intelligence/ghibli-effect-chatgpt-usage-hits-record-after-rollout-viral-feature-2025-04-01/
+            - text: — everyone was doing it, and I sat it out. The
+            - link "’80s photo trend" [ref=e75] [cursor=pointer]:
+              - /url: https://economictimes.indiatimes.com/news/new-updates/piyush-goyal-joins-viral-chatgpt-80s-photo-trend-with-a-retro-ai-generated-picture-vibing-to-the-80s-trend/articleshow/133973486.cms?from=mdr
+            - text: that was fashionable in India until recently, same story. I’m not pasting credit card bills or personal photos into a stranger’s server just to get a cute avatar out of it. So for a while I just… waited for the version of this that didn’t demand so much.
+          - heading "The machine I was waiting for" [level=2] [ref=e76]
+          - paragraph [ref=e77]:
+            - text: What I was waiting for was a machine that I owned 100% myself, one that could let me use some of this “artificial” intelligence without having to give up my privacy or my family’s data. Fortunately, NVIDIA launched the
+            - link "DGX Spark" [ref=e78] [cursor=pointer]:
+              - /url: https://www.nvidia.com/en-us/products/workstations/dgx-spark/
+            - text: — a compact computer for local AI, with 128 GB of unified memory per box, shared between the processor and the graphics processor.
+          - paragraph [ref=e79]: "If you are curious about these devices, check out these videos:"
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - iframe [ref=e83]:
+                - generic [active] [ref=f1e1]:
+                  - generic "YouTube Video Player" [ref=f1e3]
+                  - generic [ref=f1e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f1e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f1e12] [cursor=pointer]
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e21]:
+                            - generic [ref=f1e22]:
+                              - link "DGX Spark... First Mini PC That Feels Like a Data Center" [ref=f1e23] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=82SyOtc9flA
+                              - link "Alex Ziskind" [ref=f1e24] [cursor=pointer]:
+                                - /url: /channel/UCajiMK_CY9icRhLepS8_3ug
+                                - generic [ref=f1e25]: Alex Ziskind
+                            - generic [ref=f1e26]:
+                              - button [ref=f1e27] [cursor=pointer]
+                              - generic [ref=f1e29]:
+                                - generic: Alex Ziskind
+                                - generic: 583K subscribers
+                          - generic [ref=f1e30]:
+                            - button "Share" [ref=f1e33] [cursor=pointer]:
+                              - generic [ref=f1e37]:
+                                - img
+                            - link "Watch on YouTube" [ref=f1e44] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=82SyOtc9flA
+                              - generic [ref=f1e47]:
+                                - text: Watch on
+                                - img [ref=f1e49]:
+                                  - generic [ref=f1e51]:
+                                    - img
+              - paragraph [ref=e84]: DGX intro
+            - generic [ref=e85]:
+              - iframe [ref=e87]:
+                - generic [active] [ref=f2e1]:
+                  - generic "YouTube Video Player" [ref=f2e3]
+                  - generic [ref=f2e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f2e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f2e12] [cursor=pointer]
+                        - generic [ref=f2e14]:
+                          - generic [ref=f2e21]:
+                            - generic [ref=f2e22]:
+                              - link "Connect Two NVIDIA DGX Sparks Together to Run Large Models" [ref=f2e23] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=0LaUiu-xTVc
+                              - link "Heavy Metal Cloud" [ref=f2e24] [cursor=pointer]:
+                                - /url: /channel/UCb4PyziX_qz6Y3R1c00EoRw
+                                - generic [ref=f2e25]: Heavy Metal Cloud
+                            - generic [ref=f2e26]:
+                              - button [ref=f2e27] [cursor=pointer]
+                              - generic [ref=f2e29]:
+                                - generic: Heavy Metal Cloud
+                                - generic: 5.95K subscribers
+                          - generic [ref=f2e30]:
+                            - button "Share" [ref=f2e33] [cursor=pointer]:
+                              - generic [ref=f2e37]:
+                                - img
+                            - link "Watch on YouTube" [ref=f2e44] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=0LaUiu-xTVc
+                              - generic [ref=f2e47]:
+                                - text: Watch on
+                                - img [ref=f2e49]:
+                                  - generic [ref=f2e51]:
+                                    - img
+              - paragraph [ref=e88]: Connecting two DGX devices
+          - paragraph [ref=e89]:
+            - text: And for the longest time, I’ve been watching DGX Spark videos non-stop but never quite pulled the trigger on the purchase. Finally, on a pleasant day when I felt brave and adventurous, I gave in and ordered 2 of these beauties via naddod.com’s
+            - link "listing" [ref=e90] [cursor=pointer]:
+              - /url: https://www.naddod.com/products/103030.html
+            - text: (I was lucky enough to snag these just a week or two before the prices went up).
+          - region "Photos of the DGX Spark delivery" [ref=e91]:
+            - generic [ref=e92]:
+              - figure [ref=e93]:
+                - link "The sealed DGX Spark box on my desk" [ref=e94] [cursor=pointer]:
+                  - /url: /dgx-spark/unboxing/DGX_Spark_box.jpg
+                  - img "The sealed DGX Spark box on my desk" [ref=e95]
+              - figure [ref=e96]:
+                - link "Open box revealing two DGX Spark units" [ref=e97] [cursor=pointer]:
+                  - /url: /dgx-spark/unboxing/IMG_1017.jpg
+                  - img "Open box revealing two DGX Spark units" [ref=e98]
+          - emphasis [ref=e100]: Clicked a few photos after delivery
+          - paragraph [ref=e101]: "It is a great device and fits the bill in every way that matters to me:"
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - strong [ref=e104]: Private by default.
+              - text: Credit card bills, personal photos, anything with my name on it — it all stays on the machine. No logs on someone else’s server, no terms-of-service roulette, no “your data may be used to improve our models.”
+            - listitem [ref=e105]:
+              - strong [ref=e106]: Multimodal, not just text.
+              - text: The same hardware that holds a big language model also runs image generation entirely locally — which is how this whole post started — and it keeps getting better across audio, video, and whatever ships next.
+            - listitem [ref=e107]:
+              - strong [ref=e108]: Always on, always mine.
+              - text: No usage caps, no rate limits, no “model retired, please migrate.”
+          - figure [ref=e109]:
+            - link "Gollum cradling a DGX Spark and calling it his precious" [ref=e110] [cursor=pointer]:
+              - /url: /dgx-spark/gollum-dgx-spark.jpg
+              - img "Gollum cradling a DGX Spark and calling it his precious" [ref=e111]
+          - heading "The joy of owning intelligence" [level=2] [ref=e112]
+          - paragraph [ref=e113]: "After setting these up and making sure the devices were working, the first thing I wanted to try out was image generation. With the help of Codex, I downloaded and installed the following image generation models: Qwen-Image-2.1-Turbo, FLUX.2 Klein 4B, and Z-Image-Turbo. I ran a bunch of tests, and when the images finally came out, it blew my mind. Quite thrilling to own intelligence running on your own private device and have fun with it."
+          - paragraph [ref=e114]: Being a heavy Codex user for the past couple of months, I wanted to visualize Codex’s impression of my working style so far.
+          - heading "Enter ComfyUI" [level=3] [ref=e115]
+          - paragraph [ref=e116]:
+            - text: Codex first wrote up a rough outline of its impression of my work. Then, with the help of ComfyUI, it generated the images from that outline. The first result was
+            - emphasis [ref=e117]: Ajay in images
+            - text: ": a cover and twelve scenes. It opens with this:"
+          - blockquote [ref=e118]:
+            - paragraph [ref=e119]: You build systems, test what they do, protect work that is live, and still make room for wonder.
+          - paragraph [ref=e120]: A generous description. I’ll take it.
+          - generic [ref=e121]:
+            - figure "The Systems Gardener · Qwen You build tools and care for them after they start to run." [ref=e122]:
+              - link "A maker tends an illuminated garden of small connected systems" [ref=e123] [cursor=pointer]:
+                - /url: /dgx-spark/portrait-of-ajay/01-systems-gardener.png
+                - img "A maker tends an illuminated garden of small connected systems" [ref=e124]
+              - generic [ref=e125]:
+                - strong [ref=e126]: The Systems Gardener
+                - text: · Qwen
+                - text: You build tools and care for them after they start to run.
+            - figure "The Precise Repair · FLUX You fix the part that failed and keep the rest safe." [ref=e127]:
+              - link "A gloved hand repairs one small part of a working machine" [ref=e128] [cursor=pointer]:
+                - /url: /dgx-spark/portrait-of-ajay/09-precise-repair.png
+                - img "A gloved hand repairs one small part of a working machine" [ref=e129]
+              - generic [ref=e130]:
+                - strong [ref=e131]: The Precise Repair
+                - text: · FLUX
+                - text: You fix the part that failed and keep the rest safe.
+          - paragraph [ref=e132]: "These two capture things I care about: maintaining what you build, and fixing a failure without disturbing everything around it."
+          - paragraph [ref=e133]:
+            - strong [ref=e134]:
+              - 'link "See the complete gallery: Ajay in images →" [ref=e135] [cursor=pointer]':
+                - /url: /dgx-spark/portrait-of-ajay/
+          - heading "Naturally, I asked for another set" [level=2] [ref=e136]
+          - paragraph [ref=e137]:
+            - text: I liked the first gallery enough to ask for a second one with different images.
+            - emphasis [ref=e138]: The Second Atlas
+            - text: has eleven images. The style changes from dark scenes and gold light to bright colours and paper worlds.
+          - generic [ref=e139]:
+            - figure "The book of possible work · Qwen Each page opens into a place to explore. The same care guides the search, the plan, the repair, and the result." [ref=e140]:
+              - link "An open book becomes a set of colorful handmade worlds" [ref=e141] [cursor=pointer]:
+                - /url: /dgx-spark/ajay-second-atlas/00-book-of-possible-work.png
+                - img "An open book becomes a set of colorful handmade worlds" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]: The book of possible work
+                - text: · Qwen
+                - text: Each page opens into a place to explore. The same care guides the search, the plan, the repair, and the result.
+            - figure "The Proof Relay · FLUX You check that one result reaches real use." [ref=e145]:
+              - link "A small gold marble moves through a physical model toward a lit lamp" [ref=e146] [cursor=pointer]:
+                - /url: /dgx-spark/ajay-second-atlas/04-proof-relay.png
+                - img "A small gold marble moves through a physical model toward a lit lamp" [ref=e147]
+              - generic [ref=e148]:
+                - strong [ref=e149]: The Proof Relay
+                - text: · FLUX
+                - text: You check that one result reaches real use.
+          - paragraph [ref=e150]:
+            - strong [ref=e151]:
+              - 'link "See the complete gallery: The Second Atlas →" [ref=e152] [cursor=pointer]':
+                - /url: /dgx-spark/ajay-second-atlas/
+          - heading "For now" [level=2] [ref=e153]
+          - paragraph [ref=e154]:
+            - text: "I’ve done more with the Sparks since then, but I’ll stop this first post here. This was a very satisfying start for me personally. In the next blog post, I will explain the current setup and what’s running on these two Spark devices. Until then:"
+            - strong [ref=e155]: may your models stay loaded.
+          - separator [ref=e156]
+          - paragraph [ref=e157]:
+            - emphasis [ref=e158]: This article was written with the help of an AI agent, based on the work we did together. The opinions, edits, and final responsibility are mine.
+          - heading "References" [level=2] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "NVIDIA DGX Spark" [ref=e162] [cursor=pointer]:
+                - /url: https://www.nvidia.com/en-us/products/workstations/dgx-spark/
+              - text: "- NVIDIA’s compact computer for local AI"
+            - listitem [ref=e163]:
+              - 'link "DGX Spark Playbooks: ComfyUI" [ref=e164] [cursor=pointer]':
+                - /url: https://github.com/NVIDIA/dgx-spark-playbooks/blob/main/nvidia/comfy-ui/README.md
+              - text: "- Setting up ComfyUI on DGX Spark"
+            - listitem [ref=e165]:
+              - 'link "Running CrewAI with Local Models: Observations and Insights" [ref=e166] [cursor=pointer]':
+                - /url: /running-crewai-with-local-models-observations-and-insights/
+              - text: "- My earlier local-model experiments on a MacBook Air"
+            - listitem [ref=e167]:
+              - link "Ajay in images" [ref=e168] [cursor=pointer]:
+                - /url: /dgx-spark/portrait-of-ajay/
+              - text: "- The first gallery"
+            - listitem [ref=e169]:
+              - link "The Second Atlas" [ref=e170] [cursor=pointer]:
+                - /url: /dgx-spark/ajay-second-atlas/
+              - text: "- The second gallery"
+      - region "Related Posts" [ref=e171]:
+        - generic [ref=e172]:
+          - heading "Related Posts" [level=2] [ref=e173]
+          - link "All posts" [ref=e174] [cursor=pointer]:
+            - /url: /posts/
+        - generic [ref=e175]:
+          - article [ref=e176]:
+            - generic [ref=e177]:
+              - time [ref=e178]: June 3, 2026
+              - generic [ref=e179]: /12 min read
+              - generic [ref=e180]:
+                - link "India" [ref=e181] [cursor=pointer]:
+                  - /url: /tags/india/
+                - link "Innovation" [ref=e182] [cursor=pointer]:
+                  - /url: /tags/innovation/
+                - link "Startups" [ref=e183] [cursor=pointer]:
+                  - /url: /tags/startups/
+            - heading "Yatha Raja, Tatha Praja" [level=3] [ref=e184]:
+              - link "Yatha Raja, Tatha Praja" [ref=e185] [cursor=pointer]:
+                - /url: /yatha-raja-tatha-praja/
+            - paragraph [ref=e186]: A response to the idea that India's innovation gap is mainly caused by rich Indians refusing to fund startups, and why the state, …
+          - article [ref=e187]:
+            - generic [ref=e188]:
+              - time [ref=e189]: May 23, 2026
+              - generic [ref=e190]: /13 min read
+              - generic [ref=e191]:
+                - link "AI" [ref=e192] [cursor=pointer]:
+                  - /url: /tags/ai/
+                - link "LLM" [ref=e193] [cursor=pointer]:
+                  - /url: /tags/llm/
+                - link "Development" [ref=e194] [cursor=pointer]:
+                  - /url: /tags/development/
+            - heading "Guardrails Against AI and Human Slop" [level=3] [ref=e195]:
+              - link "Guardrails Against AI and Human Slop" [ref=e196] [cursor=pointer]:
+                - /url: /guardrails-against-ai-slop/
+            - paragraph [ref=e197]: How to prevent new AI and human slop from entering a codebase by turning review findings and production issues into continuously …
+          - article [ref=e198]:
+            - generic [ref=e199]:
+              - time [ref=e200]: May 20, 2026
+              - generic [ref=e201]: /6 min read
+              - generic [ref=e202]:
+                - link "AI" [ref=e203] [cursor=pointer]:
+                  - /url: /tags/ai/
+                - link "LLM" [ref=e204] [cursor=pointer]:
+                  - /url: /tags/llm/
+                - link "Development" [ref=e205] [cursor=pointer]:
+                  - /url: /tags/development/
+            - heading "AI slop? What about human slop?" [level=3] [ref=e206]:
+              - link "AI slop? What about human slop?" [ref=e207] [cursor=pointer]:
+                - /url: /ai-slop-what-about-human-slop/
+            - paragraph [ref=e208]: "AI slop is real, but sloppy code has always had a human version: rushed, under-reviewed, inconsistent, and protected by excuses."
+  - contentinfo [ref=e209]:
+    - generic [ref=e210]:
+      - paragraph [ref=e211]: ©NadathurX.com, 2024. Unauthorized use of this material without permission is strictly prohibited.
+      - navigation "Footer navigation" [ref=e212]:
+        - link "Home" [ref=e213] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e214] [cursor=pointer]:
+          - /url: /about/
+        - link "Bookshelf" [ref=e215] [cursor=pointer]:
+          - /url: /bookshelf/
+        - link "Privacy Policy" [ref=e216] [cursor=pointer]:
+          - /url: /privacy/
+        - link "GitHub" [ref=e217] [cursor=pointer]:
+          - /url: https://github.com/ajaykumarns
+        - link "LinkedIn" [ref=e218] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/nadathur/
+        - link "Twitter" [ref=e219] [cursor=pointer]:
+          - /url: https://twitter.com/ajaykumarns

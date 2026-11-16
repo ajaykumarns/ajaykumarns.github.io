@@ -7,11 +7,7 @@
         {{ with .Params.subtitle }}<p class="deck">{{ . | markdownify }}</p>{{ end }}
         {{ partial "post-meta.html" . }}
         {{ partial "share-buttons.html" . }}
-        {{ .Scratch.Set "coverClass" "article-cover" }}
-        {{ .Scratch.Set "coverLoading" "eager" }}
-        {{ partial "cover-image.html" . }}
-        {{ .Scratch.Delete "coverClass" }}
-        {{ .Scratch.Delete "coverLoading" }}
+        {{ partial "cover-image.html" (dict "page" . "coverClass" "article-cover" "loading" "eager") }}
       </header>
       <div class="article-layout shell">
         {{ partial "toc.html" . }}
