@@ -12,6 +12,8 @@ twitter: "https://twitter.com/ajaykumarns"
 github: "https://github.com/ajaykumarns"
 linkedin: "https://www.linkedin.com/in/nadathur/"
 
+description: "Ajay Nadathur is a software engineer in Singapore who builds AI systems and tools. This is his personal blog, with writing on technology, books, travel, and life."
+
 resources:
 - name: featured-image
   src: me.jpg
@@ -20,41 +22,31 @@ resources:
 
 ---
 
-# 👋, I'm Ajay Nadathur
+I'm Ajay, a software engineer based in Singapore. I've worked on Android apps, monitoring tools, and developer platforms. These days, I spend much of my time building AI systems and using them to write software.
 
-**Senior Staff Software Engineer — AI Platforms, Developer Tools & Distributed Systems**
-
-I'm a technologist and software engineer based out of Singapore. This is my personal space on the internet where I share my thoughts, experiences, and learnings. I've spent the last 18+ years moving from writing code and building mobile agents to leading teams, and now to defining AI strategy. For more details about my career and projects, please visit my [LinkedIn profile](https://www.linkedin.com/in/nadathur/).
+This blog is where I write about what I build, what I learn, and whatever else interests me. That includes technology, books, travel, fitness, and life.
 
 ## 🔥 What I'm doing now
 
-I'm a Senior Staff Software Engineer at [DKatalis](https://dkatalis.com/) in Singapore, defining and building the company's developer AI strategy for ~400 engineers, mostly working remotely in Indonesia.
+At DKatalis, I build tools that help engineers use AI in their daily work. This includes systems for coding agents and shared access to AI models. I work on the design, code, deployment, and day-to-day operation.
 
-Lately I've designed, built, and deployed two platforms end to end:
-- An enterprise AI agent platform that lets engineers delegate real production work — debugging issues, reviewing code changes, and running automations — to AI assistants. Tasks run in isolated, session-based environments with access to approved company knowledge and tools, so engineers can handle sensitive work that many external AI services can't safely support under local compliance rules.
-- An LLM access and governance layer — a gateway plus a desktop client — that gives engineers a broader choice of models and tools, with central identity, budgets, and usage tracking, so teams can adopt AI safely and consistently.
+## 💭 What I'm into right now
 
-I also enjoy teaching AI-focused developer bootcamps, writing guides and hands-on exercises for coding agents, MCP, and GitLab/Jira workflows. My core areas of expertise:
-- 🤖 LLM use cases, agent runtimes, and MCP
-- 🛠️ Platform engineering — identity & access controls, quotas, cost governance
-- 📚 Full stack / mobile development
-
-## 📚 What I'm learning
-
-Technology moves fast, and I like to keep learning:
-- AI-assisted development — I've used Codex, OpenCode, Cursor, and Claude Code to build these platforms.
-- LLMs and agents fascinate me deeply, and I experiment with using them effectively in real production work.
+Outside work, I experiment with running AI on my own hardware. My recent projects include two NVIDIA DGX Sparks, local language models, image generation, and speech tools. I'm interested in what these systems can do in practice, how they fail, and what it takes to keep them working.
 
 ## 💪 What I've worked on
 
-- **DKatalis, Singapore** — Senior Staff Software Engineer (2025–Present). Sole developer, designing and deploying two AI platforms while owning architecture and production operations.
-- **Independent Products, Bengaluru** — Founder (2025). Built and launched **SonicText** (AI audio/video transcription with speaker diarization) and **PdfMagix** (PDF merge/split/compress/convert), both end to end.
-- **Google, Bengaluru** — Engineering Manager and Staff Software Engineer (2020–2024). Bootstrap-led a 14-engineer Android and backend team for Google Home/Nest, owning hiring and delivery across three of the app's five primary tabs. Later returned to an IC role and established the Google Home Wear team in Bengaluru. Removed a major launch blocker by reducing history page load latency 32% (15s → 11s), and led Hilt adoption plus an automated feature-flag migration across ~25,000 lines.
-- **Google, Mountain View, CA** — Senior Software Engineer (2016–2020). Built Android SetupWizard and Settings, and drove Google Home delivery of Fable, History, media, and performance.
-- **AppDynamics, San Francisco** — Senior Software Engineer (2013–2015). Co-built Android and iOS monitoring agents in a two-engineer team.
-- **VMware, Cognizant** — Earlier work on REST APIs, vC Ops services, and Java banking systems.
+- **DKatalis** — Senior Staff Software Engineer, building AI tools for engineers.
+- **Google** — Software engineer and engineering manager for Android SetupWizard and Google Home.
+- **AppDynamics** — Where I helped build mobile monitoring tools.
+- **VMware, Cognizant** — Earlier work on cloud services and banking software.
 
-I hold a Master's in Computer Science from N.C. State University, and a Bachelor's in Engineering from Anna University.
+I have a Master's in Computer Science from N.C. State University, and a Bachelor's in Engineering from Anna University.
+
+## 🏭 What I've made
+
+- ~~https://sonictext.xyz~~ - 🏁 Retired - Smart transcripts for your audio/video content
+- ~~https://pdfmagix.com~~ - 🏁 Retired - Powerful PDF tools for merging, splitting, compression, and conversion.
 
 ## ❤️ What I love to do
 
@@ -65,12 +57,10 @@ I love travelling and exploring new places. Some of the countries I've visited i
 - Singapore
 - Malaysia
 
-## 🏭 What I'm building
-- ~~https://sonictext.xyz~~ - 🏁 Retired - Smart transcripts for your audio/video content
-- ~~https://pdfmagix.com~~ - 🏁 Retired - Powerful PDF tools designed to streamline your document workflow with precision and simplicity.
+## 📖 Reading
 
-## 📖 Currently Reading
-- [Vibe Coding by Steve Yegge & Gene Kim](https://www.simonandschuster.com/books/Vibe-Coding/Gene-Kim/9781966280026)
+I keep a record of the books I read over at the [Bookshelf](/bookshelf/).
 
 ## 🎤 Presentations/Talks
+
 - <a href="/presentations/full-stack-flask-app/index.html" target="_blank">Developing full stack applications using flask</a> - Talk given on 4/19/2025 at BangPypers (Bengaluru Python Users Group)
