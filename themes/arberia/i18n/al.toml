@@ -15,11 +15,11 @@ other = "Postimet"
 
 # === general ==
 
-# === defaults/taxonomy.html ===
+# === _default/taxonomy.html ===
 [allPostsforTerms]
 other = "Të gjitha postimet për ... "
 
-# === defaults/terms.html ===
+# === _default/terms.html ===
 [all]
 other = "Të gjitha "
 
@@ -127,3 +127,51 @@ other = "Të gjitha temat e etiketave"
 # === toc.html ===
 [tableOfContents]
 other = "Tabela e Përmbajtjes"
+
+[pageNotFound]
+other = "Faqja nuk u gjet"
+
+[pageNotFoundMessage]
+other = "Na vjen keq, kjo faqe nuk mund të gjendet."
+
+[goToHomepage]
+other = "Shko te faqja kryesore"
+
+[filePdfLabel]
+other = "Skedar (.pdf)"
+
+[permanentLinkTitle]
+other = "Lidhje e përhershme"
+
+[newLabel]
+other = "E RE"
+
+[searchPlaceholder]
+other = "Kërko..."
+
+[exitFullscreen]
+other = "Dil nga ekrani i plotë"
+
+[brandLogoAlt]
+other = "logo-e-markës"
+
+[freeEmailSeries]
+other = "— Seri falas me email —"
+
+[pythonTricksTitle]
+other = "🐍 Truket e Python 💌"
+
+[pythonTricksAlt]
+other = "Bashkimi i fjalorit të trukeve të Python"
+
+[searchButton]
+other = "Kërko »"
+
+[textPostAlt]
+other = "postim-tekst"
+
+[byAuthor]
+other = "nga"
+
+[authorImageAlt]
+other = "Imazhi i autorit"

@@ -185,7 +185,7 @@ def hello():
 ### Automatic (GitHub Actions)
 - Triggered on push to `site` branch
 - Workflow file: `.github/workflows/hugo.yml`
-- Uses Hugo version specified in workflow (0.159.0)
+- Uses Hugo version specified in workflow (0.170.0)
 - Automatically builds and deploys to GitHub Pages
 
 ### Manual (publish.sh)

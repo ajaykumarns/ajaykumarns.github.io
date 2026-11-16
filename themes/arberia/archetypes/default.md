@@ -4,23 +4,24 @@ subtitle: "Insert a subtitle here"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-type:  Use standard-view or nothing for default or - cover-view - video - landingpage null for list view
+type:  # Use standard-view or nothing for default or - cover-view - video - landingpage null for list view
 weight: null 
 
 featured: false
 sidebar: false # Works only with standard-view
 toc: false # Works only with standard-view
 math:
-  enable: false # Actualy not implemented
-lightgallery: false # Actualy not implemented
+  enable: false # Actually not implemented
+lightgallery: false # Actually not implemented
 license: ""
-slug:  # slug exemple: solidworks-2020-tutorial
+slug:  # slug example: solidworks-2020-tutorial
 
 hiddenFromHomePage: false
 hiddenFromSearch: false # da implementare
+hiddenMetaTag: false # Set to false to hide author, publish date, and tags
 
 author: "Insert author"
-avatar: /img/me.jpg  # link to avatar file
+avatar: /img/me.png  # link to avatar file
 authorLink: ""
 description: "A short description"
 
