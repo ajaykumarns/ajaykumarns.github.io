@@ -4,3 +4,4 @@ public
 resources
 # Local tooling artifacts
 .playwright-cli/
+themes/blowfish/
