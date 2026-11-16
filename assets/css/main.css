@@ -877,3 +877,25 @@ a:hover {
   font-family: var(--font-serif);
   font-style: italic;
 }
+
+/* Card refinements: quiet the meta + deck so title wins visually */
+.post-card .subtitle {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.4;
+  margin: 4px 0 8px;
+}
+
+.post-card .tag-list a {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  padding: 2px 9px;
+}
+
+.tag-list a,
+.term-cloud a {
+  font-family: var(--font-sans);
+}
